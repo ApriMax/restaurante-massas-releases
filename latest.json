@@ -1,12 +1,12 @@
 {
   "channel": "stable",
   "version": "1.7.0",
-  "release": "R18.26.1",
-  "build": "R18.26-HOTFIX1-PROTECAO-ALTERACOES",
-  "schema": 25,
-  "worker_version": "1.26.1",
+  "release": "R18.27",
+  "build": "R18.27-CARDAPIO-USUARIOS-JANELAS",
+  "schema": 26,
+  "worker_version": "1.27.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.26.1/Sistema_Restaurante_Massas_R18.26.1_UPDATE.zip",
-  "sha256": "3025887955b6fcf1c754855d49bfd4239b4c5ac249fbdd41193312df6850d3a0",
-  "notes": "R18.26.1 HOTFIX: corrige falso alerta de alterações não salvas em Formas de pagamento ao sair da tela sem editar nada. Worker permanece 1.26.1."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.27/Sistema_Restaurante_Massas_R18.27_UPDATE.zip",
+  "sha256": "c0d027ab56c02cf2af4d5299452c2cc780e2871f66364ecadebbd36407a4b783",
+  "notes": "R18.27 preparada: melhorias no cabeçalho e atualização, janela maximizada sem duplicidade, alinhamento da montagem, regras por tamanho, pesquisa e ordenação do Cardápio, aviso de promoção encerrada descartável, assistente por etapa e usuários com permissões granulares."
 }
