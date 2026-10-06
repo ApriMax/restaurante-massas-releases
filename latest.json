@@ -1,0 +1,12 @@
+{
+  "channel": "stable",
+  "version": "1.7.0",
+  "release": "R18.26",
+  "build": "R18.26-FINAL-OPERACAO-USUARIOS-ATUALIZACAO",
+  "schema": 25,
+  "worker_version": "1.26.1",
+  "mandatory": false,
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.26/Sistema_Restaurante_Massas_R18.26_UPDATE.zip",
+  "sha256": "8c0ad8fee37c63e67153e47ae622c9d66e4aaac4f70920e24f06eabf33459b2b",
+  "notes": "R18.26 FINAL homologada. Publicação de produção autorizada após bootstrap do código-fonte final, validação dos testes e configuração do RELEASES_TOKEN."
+}
