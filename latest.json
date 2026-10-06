@@ -1,12 +1,12 @@
 {
   "channel": "stable",
   "version": "1.7.0",
-  "release": "R18.26",
-  "build": "R18.26-FINAL-OPERACAO-USUARIOS-ATUALIZACAO",
+  "release": "R18.26.1",
+  "build": "R18.26-HOTFIX1-PROTECAO-ALTERACOES",
   "schema": 25,
   "worker_version": "1.26.1",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.26/Sistema_Restaurante_Massas_R18.26_UPDATE.zip",
-  "sha256": "8c0ad8fee37c63e67153e47ae622c9d66e4aaac4f70920e24f06eabf33459b2b",
-  "notes": "R18.26 FINAL homologada. Publicação de produção autorizada após bootstrap do código-fonte final, validação dos testes e configuração do RELEASES_TOKEN."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.26.1/Sistema_Restaurante_Massas_R18.26.1_UPDATE.zip",
+  "sha256": "3025887955b6fcf1c754855d49bfd4239b4c5ac249fbdd41193312df6850d3a0",
+  "notes": "R18.26.1 HOTFIX: corrige falso alerta de alterações não salvas em Formas de pagamento ao sair da tela sem editar nada. Worker permanece 1.26.1."
 }

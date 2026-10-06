@@ -1,3 +1,3 @@
-# R18.26
+# R18.26.1
 
-R18.26 FINAL homologada. Publicação de produção autorizada após bootstrap do código-fonte final, validação dos testes e configuração do RELEASES_TOKEN.
+R18.26.1 HOTFIX: corrige falso alerta de alterações não salvas em Formas de pagamento ao sair da tela sem editar nada. Worker permanece 1.26.1.
