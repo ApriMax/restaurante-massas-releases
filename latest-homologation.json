@@ -7,7 +7,7 @@
   "worker_version": "1.34.0",
   "mandatory": false,
   "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.34/Sistema_Restaurante_Massas_R18.34_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "26761d37ba31325f0692b6282dc05d65fe0f7693c18e5b44714d2e3fca7c2fa5",
-  "source_fingerprint": "0f6b83b78215b9b4f4492d02aa57f8a68e658bb81cb6650fa43c474d3fcb81c1",
+  "sha256": "a0d6f1b78bc60569a63a1fda49913d12a1e06a91a060746920fcb4796f1f9d21",
+  "source_fingerprint": "7944b90dd406a87eecac9e7d5af37eb1a1122e9be0006efe010a22a724cdcf94",
   "notes": "R18.34 Homologação: inaugura o canal separado de testes com Worker e D1 exclusivos. Este computador de testes recebe versões antes da produção, mantém dados online separados e fica protegido contra conexão acidental ao Worker de produção."
 }
