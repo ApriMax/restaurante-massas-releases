@@ -1,3 +1,3 @@
-# R18.33
+# R18.34
 
-R18.33 preparada: adiciona em cada grupo de Cadastros o botão “Custo em todos”, ao lado de “Mesmo peso”, para ativar “Calcular custo deste item” em todos os itens do grupo de uma vez. Mantém os valores já cadastrados, preserva a média de compras e define automaticamente a base correta de custo — itens em peso usam sempre KG.
+R18.34 de transição: separa oficialmente os ambientes de Homologação e Produção. Computadores marcados como Homologação passam a consultar um canal de atualização próprio, exibem identificação visual no sistema e ficam protegidos contra conexão acidental ao Worker de produção. O Worker passa a informar o ambiente. Esta é a única publicação de transição liberada diretamente em Produção porque ainda não existe computador de produção instalado; a partir das próximas versões a publicação em Produção ficará bloqueada até a mesma versão/build ter sido publicada e testada em Homologação.
