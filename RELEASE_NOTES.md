@@ -1,3 +1,3 @@
-# R18.32
+# R18.33
 
-R18.32 preparada: corrige Ingredientes e Molhos para tratar a quantidade definida pelo tamanho como máximo — permite escolher menos e bloqueia escolhas acima do limite quando excedente está desativado; destaca também as etapas 2 Dados do prato e 3 O que o cliente poderá escolher; acrescenta ajuda ? em cada grupo com a lista dos itens cadastrados; inclui Financeiro no app unificado com faturamento, taxas, receita líquida, gastos, resultado estimado, custos, lucro e margem; adiciona botão explícito para voltar com o usuário atual; padroniza custos de itens medidos em peso sempre por KG, mantendo Gr apenas como medida de consumo da porção.
+R18.33 preparada: adiciona em cada grupo de Cadastros o botão “Custo em todos”, ao lado de “Mesmo peso”, para ativar “Calcular custo deste item” em todos os itens do grupo de uma vez. Mantém os valores já cadastrados, preserva a média de compras e define automaticamente a base correta de custo — itens em peso usam sempre KG.
