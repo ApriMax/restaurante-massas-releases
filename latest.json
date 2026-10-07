@@ -1,12 +1,12 @@
 {
   "channel": "stable",
   "version": "1.7.0",
-  "release": "R18.28",
-  "build": "R18.28-RECEITA-FIXA-CONSUMO-ATUALIZADOR",
-  "schema": 27,
-  "worker_version": "1.28.0",
+  "release": "R18.29",
+  "build": "R18.29-CUSTO-MEDIO-PAINEL-PROPRIETARIO",
+  "schema": 28,
+  "worker_version": "1.29.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.28/Sistema_Restaurante_Massas_R18.28_UPDATE.zip",
-  "sha256": "e846756ae97094ee0182e85778d3938b1b74429fec9d164ff899f226afbc4121",
-  "notes": "R18.28 preparada: Receita Fixa com composição e descrição online, ajuste de consumo por unidade sem alterar impressão/preço, regras independentes de excedente para Molhos e Ingredientes, retorno ao usuário atual sem senha, alinhamento dos cards da montagem, cabeçalho revisado, preservação de atalho/ícone personalizado e reabertura automática maximizada após atualização."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.29/Sistema_Restaurante_Massas_R18.29_UPDATE.zip",
+  "sha256": "5a0148767351172532ad676ebf24a8599a8ce97f0549b22c86a138cbf3934bd3",
+  "notes": "R18.29 preparada: custo médio direto por prato e por tamanho, custo congelado na venda, rentabilidade no Financeiro e Relatórios, Painel do Proprietário no PWA unificado com login de Administrador, montagem por tamanho simplificada com excedentes independentes por tamanho para Molhos/Ingredientes e cards alinhados, peso visual do pedido online sem duplicar itens já incluídos quando o prato tem peso base (somando apenas excedentes), cadastro de novo prato em etapas com preço base e peso base opcionais por seleção, e edição rápida de cada grupo diretamente no card do prato. Publicação para conferência e testes. Validação técnica ajustada."
 }

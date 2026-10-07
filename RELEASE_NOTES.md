@@ -1,3 +1,3 @@
-# R18.28
+# R18.29
 
-R18.28 preparada: Receita Fixa com composição e descrição online, ajuste de consumo por unidade sem alterar impressão/preço, regras independentes de excedente para Molhos e Ingredientes, retorno ao usuário atual sem senha, alinhamento dos cards da montagem, cabeçalho revisado, preservação de atalho/ícone personalizado e reabertura automática maximizada após atualização.
+R18.29 preparada: custo médio direto por prato e por tamanho, custo congelado na venda, rentabilidade no Financeiro e Relatórios, Painel do Proprietário no PWA unificado com login de Administrador, montagem por tamanho simplificada com excedentes independentes por tamanho para Molhos/Ingredientes e cards alinhados, peso visual do pedido online sem duplicar itens já incluídos quando o prato tem peso base (somando apenas excedentes), cadastro de novo prato em etapas com preço base e peso base opcionais por seleção, e edição rápida de cada grupo diretamente no card do prato. Publicação para conferência e testes. Validação técnica ajustada.
