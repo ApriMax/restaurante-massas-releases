@@ -35,6 +35,20 @@ function New-AppShortcut {
     $lnk.Save()
 }
 
+function Remove-LegacyShortcuts {
+    $folders = @(
+        [Environment]::GetFolderPath("Desktop"),
+        [Environment]::GetFolderPath("Programs"),
+        [Environment]::GetFolderPath("Startup")
+    )
+    foreach($folder in $folders){
+        if($folder){
+            $legacy = Join-Path $folder "Sistema Restaurante Massas.lnk"
+            if(Test-Path -LiteralPath $legacy){ Remove-Item -LiteralPath $legacy -Force -ErrorAction SilentlyContinue }
+        }
+    }
+}
+
 function Write-HomologationMarker {
     New-Item -ItemType Directory -Force -Path $Root | Out-Null
     if(Test-Path -LiteralPath $EnvironmentFile){
@@ -111,6 +125,7 @@ try {
     if($LASTEXITCODE -ge 8){ throw "Falha ao copiar os arquivos do aplicativo." }
 
     Write-Host "[6/7] Criando atalhos de HOMOLOGACAO..."
+    Remove-LegacyShortcuts
     New-AppShortcut -Folder ([Environment]::GetFolderPath("Desktop")) -Name "Sistema Restaurante Massas - HOMOLOGACAO.lnk"
     New-AppShortcut -Folder ([Environment]::GetFolderPath("Programs")) -Name "Sistema Restaurante Massas - HOMOLOGACAO.lnk"
     New-AppShortcut -Folder ([Environment]::GetFolderPath("Startup")) -Name "Sistema Restaurante Massas - HOMOLOGACAO.lnk"
