@@ -1,12 +1,12 @@
 {
   "channel": "stable",
   "version": "1.7.0",
-  "release": "R18.31",
-  "build": "R18.31-CUSTOS-MANUAIS-SIMPLIFICADOS",
+  "release": "R18.32",
+  "build": "R18.32-LIMITES-UX-FINANCEIRO-USUARIOS",
   "schema": 30,
-  "worker_version": "1.32.0",
+  "worker_version": "1.33.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.31/Sistema_Restaurante_Massas_R18.31_UPDATE.zip",
-  "sha256": "bd7a88a7a788bc4d99e60a461b1211444e3cc21dd3499cb82f847b6f759b20ce",
-  "notes": "R18.31 preparada: simplifica o lançamento de custos em Gastos com uma caixa opcional, uma linha inicial e unidade automática pelo cadastro; corrige a atualização da lista de itens de custo para sempre usar o catálogo atual; adiciona atualização manual de custos sem gerar gasto financeiro; o App de Gastos passa a permitir vários itens de custo em Digitar gasto com o mesmo fluxo simplificado; alterações de cadastro de itens sincronizam imediatamente o catálogo de custos com o App; corrige também o falso alerta de Worker desatualizado, removendo a referência antiga fixa ao Worker 1.27.0 e usando a versão esperada da própria release."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.32/Sistema_Restaurante_Massas_R18.32_UPDATE.zip",
+  "sha256": "4f41807ccc6eeb896dca7a63f4674818b214a36c0f947841d01a3540d028adce",
+  "notes": "R18.32 preparada: corrige Ingredientes e Molhos para tratar a quantidade definida pelo tamanho como máximo — permite escolher menos e bloqueia escolhas acima do limite quando excedente está desativado; destaca também as etapas 2 Dados do prato e 3 O que o cliente poderá escolher; acrescenta ajuda ? em cada grupo com a lista dos itens cadastrados; inclui Financeiro no app unificado com faturamento, taxas, receita líquida, gastos, resultado estimado, custos, lucro e margem; adiciona botão explícito para voltar com o usuário atual; padroniza custos de itens medidos em peso sempre por KG, mantendo Gr apenas como medida de consumo da porção."
 }
