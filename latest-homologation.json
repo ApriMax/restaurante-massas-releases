@@ -1,0 +1,12 @@
+{
+  "channel": "homologation",
+  "version": "1.7.0",
+  "release": "R18.34",
+  "build": "R18.34-AMBIENTES-HOMOLOGACAO-PRODUCAO",
+  "schema": 30,
+  "worker_version": "1.34.0",
+  "mandatory": false,
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.34/Sistema_Restaurante_Massas_R18.34_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "d0db89a2e74eac670705d8893accc771f316f23aa5ca9250c4205fbb99b510c6",
+  "notes": "R18.34 Homologação: inaugura o canal separado de testes. Este computador de testes poderá receber versões antes da produção, mantendo dados e Worker/D1 próprios. O Worker de homologação será conectado assim que o banco D1 exclusivo for criado."
+}
