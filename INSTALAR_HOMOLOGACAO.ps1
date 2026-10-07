@@ -66,6 +66,12 @@ function Write-HomologationMarker {
         label = "HOMOLOGACAO"
         installed_by = "INSTALAR_HOMOLOGACAO"
     } | ConvertTo-Json | Set-Content -LiteralPath $EnvironmentFile -Encoding UTF8
+
+    # Este computador e dedicado a Homologacao. Mantemos a classificacao
+    # tambem no ambiente do usuario para neutralizar qualquer SRM_ENVIRONMENT
+    # antigo que ainda esteja definido como production.
+    [Environment]::SetEnvironmentVariable("SRM_ENVIRONMENT", "homologation", "User")
+    $env:SRM_ENVIRONMENT = "homologation"
 }
 
 function Restore-Rollback {
@@ -86,6 +92,12 @@ Write-Host "Canal: HOMOLOGACAO"
 Write-Host "Manifesto: $ManifestUrl"
 Write-Host ""
 Write-HomologationMarker
+$markerCheck = Get-Content -LiteralPath $EnvironmentFile -Raw | ConvertFrom-Json
+if([string]$markerCheck.environment -ne "homologation"){
+    throw "Falha ao gravar o marcador de HOMOLOGACAO."
+}
+Write-Host "Marcador confirmado: HOMOLOGACAO"
+Write-Host "Variavel de ambiente confirmada: SRM_ENVIRONMENT=homologation"
 
 $temp = Join-Path $env:TEMP ("SistemaRestauranteMassas_Homologacao_" + [guid]::NewGuid().ToString("N"))
 New-Item -ItemType Directory -Force -Path $temp | Out-Null
