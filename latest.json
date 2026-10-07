@@ -1,12 +1,12 @@
 {
   "channel": "stable",
   "version": "1.7.0",
-  "release": "R18.27",
-  "build": "R18.27-CARDAPIO-USUARIOS-JANELAS",
-  "schema": 26,
-  "worker_version": "1.27.0",
+  "release": "R18.28",
+  "build": "R18.28-RECEITA-FIXA-CONSUMO-ATUALIZADOR",
+  "schema": 27,
+  "worker_version": "1.28.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.27/Sistema_Restaurante_Massas_R18.27_UPDATE.zip",
-  "sha256": "c0d027ab56c02cf2af4d5299452c2cc780e2871f66364ecadebbd36407a4b783",
-  "notes": "R18.27 preparada: melhorias no cabeçalho e atualização, janela maximizada sem duplicidade, alinhamento da montagem, regras por tamanho, pesquisa e ordenação do Cardápio, aviso de promoção encerrada descartável, assistente por etapa e usuários com permissões granulares."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/R18.28/Sistema_Restaurante_Massas_R18.28_UPDATE.zip",
+  "sha256": "e846756ae97094ee0182e85778d3938b1b74429fec9d164ff899f226afbc4121",
+  "notes": "R18.28 preparada: Receita Fixa com composição e descrição online, ajuste de consumo por unidade sem alterar impressão/preço, regras independentes de excedente para Molhos e Ingredientes, retorno ao usuário atual sem senha, alinhamento dos cards da montagem, cabeçalho revisado, preservação de atalho/ícone personalizado e reabertura automática maximizada após atualização."
 }
