@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.34",
-  "build": "R18.34-AMBIENTES-HOMOLOGACAO-PRODUCAO",
+  "release": "R18.35",
+  "build": "R18.35-ASSISTENTE-INICIAL-HOMOLOGACAO",
   "schema": 30,
   "worker_version": "1.34.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.34/Sistema_Restaurante_Massas_R18.34_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "a0d6f1b78bc60569a63a1fda49913d12a1e06a91a060746920fcb4796f1f9d21",
-  "source_fingerprint": "7944b90dd406a87eecac9e7d5af37eb1a1122e9be0006efe010a22a724cdcf94",
-  "notes": "R18.34 Homologação: inaugura o canal separado de testes com Worker e D1 exclusivos. Este computador de testes recebe versões antes da produção, mantém dados online separados e fica protegido contra conexão acidental ao Worker de produção."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.35/Sistema_Restaurante_Massas_R18.35_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "b4754a6c68706ac8231f60d3ce82b7d2d81c855750d3a0ad2a9088da7e124984",
+  "source_fingerprint": "9afd27348e29009bb7cb6bb0a6eb4da9f11a90747efb043693c71c067253388c",
+  "notes": "R18.35 Homologação: corrige o fluxo do Assistente de Configuração Inicial. Ao abrir uma área de Configurações pelo assistente, o sistema agora oferece retorno explícito para a mesma etapa sem encerrar o fluxo. O assistente também exibe a identificação HOMOLOGAÇÃO neste computador de testes."
 }

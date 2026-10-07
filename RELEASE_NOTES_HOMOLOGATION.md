@@ -1,3 +1,3 @@
-# Homologação R18.34
+# Homologação R18.35
 
-R18.34 Homologação: inaugura o canal separado de testes com Worker e D1 exclusivos. Este computador de testes recebe versões antes da produção, mantém dados online separados e fica protegido contra conexão acidental ao Worker de produção.
+R18.35 Homologação: corrige o fluxo do Assistente de Configuração Inicial. Ao abrir uma área de Configurações pelo assistente, o sistema agora oferece retorno explícito para a mesma etapa sem encerrar o fluxo. O assistente também exibe a identificação HOMOLOGAÇÃO neste computador de testes.
