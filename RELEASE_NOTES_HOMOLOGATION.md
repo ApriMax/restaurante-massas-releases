@@ -1,3 +1,3 @@
-# Homologação R18.35
+# Homologação R18.36
 
-R18.35 Homologação: corrige o fluxo do Assistente de Configuração Inicial. Ao abrir uma área de Configurações pelo assistente, o sistema agora oferece retorno explícito para a mesma etapa sem encerrar o fluxo. O assistente também exibe a identificação HOMOLOGAÇÃO neste computador de testes.
+R18.36 Homologação: pacote pós-homologação com correções de permissões e privacidade financeira, Pagar Depois, consumo por entrega, suprimento e sangria de caixa, contas a pagar vencidas, senhas e usuários, custos pelo último valor informado, consulta/atualização de custos no App de Gastos, melhorias dos Apps/PWA, Controle Rápido com dois botões dinâmicos, correções do Financeiro mobile, numeração visível de pedidos, identidade do restaurante, câmera NFC-e e ajustes de layout e legibilidade. Pipeline de regressão atualizado para a nova regra de último custo e consumo por entrega; publicação retomada após validação completa.
