@@ -7,7 +7,7 @@
   "worker_version": "1.35.0",
   "mandatory": false,
   "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.36/Sistema_Restaurante_Massas_R18.36_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "e8d4fdb6708801054d0d9dc7599255406ebeb0e88e8a18d9fcd7252280ab3158",
+  "sha256": "178328f2fd1884fee6ba6476c2ca900fdbda3082d68f31613a64c35582050e84",
   "source_fingerprint": "6092fee870e854fcb44141ca210d47e7a044201aa3707ddadb5ef940883e6ea0",
-  "notes": "R18.36 Homologação: pacote pós-homologação com correções de permissões e privacidade financeira, Pagar Depois, consumo por entrega, suprimento e sangria de caixa, contas a pagar vencidas, senhas e usuários, custos pelo último valor informado, consulta/atualização de custos no App de Gastos, melhorias dos Apps/PWA, Controle Rápido com dois botões dinâmicos, correções do Financeiro mobile, numeração visível de pedidos, identidade do restaurante, câmera NFC-e e ajustes de layout e legibilidade. Pipeline de regressão atualizado para a nova regra de último custo e consumo por entrega; publicação retomada após validação completa."
+  "notes": "R18.36 Homologação: pacote pós-homologação com correções de permissões e privacidade financeira, Pagar Depois, consumo por entrega, suprimento e sangria de caixa, contas a pagar vencidas, senhas e usuários, custos pelo último valor informado, consulta/atualização de custos no App de Gastos, melhorias dos Apps/PWA, Controle Rápido com dois botões dinâmicos, correções do Financeiro mobile, numeração visível de pedidos, identidade do restaurante, câmera NFC-e e ajustes de layout e legibilidade. Pipeline de regressão atualizado para a nova regra de último custo e consumo por entrega; publicação retomada após validação completa. Validação automática completa aprovada antes da nova publicação."
 }
