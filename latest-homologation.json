@@ -7,7 +7,7 @@
   "worker_version": "1.35.0",
   "mandatory": false,
   "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.36/Sistema_Restaurante_Massas_R18.36_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "178328f2fd1884fee6ba6476c2ca900fdbda3082d68f31613a64c35582050e84",
-  "source_fingerprint": "6092fee870e854fcb44141ca210d47e7a044201aa3707ddadb5ef940883e6ea0",
-  "notes": "R18.36 Homologação: pacote pós-homologação com correções de permissões e privacidade financeira, Pagar Depois, consumo por entrega, suprimento e sangria de caixa, contas a pagar vencidas, senhas e usuários, custos pelo último valor informado, consulta/atualização de custos no App de Gastos, melhorias dos Apps/PWA, Controle Rápido com dois botões dinâmicos, correções do Financeiro mobile, numeração visível de pedidos, identidade do restaurante, câmera NFC-e e ajustes de layout e legibilidade. Pipeline de regressão atualizado para a nova regra de último custo e consumo por entrega; publicação retomada após validação completa. Validação automática completa aprovada antes da nova publicação."
+  "sha256": "fcbca99c4e465095f8f84b422a43ee49d146e1e99c16549d1a740a4b710582b3",
+  "source_fingerprint": "1530aaa2cd194967f1e9d12b57ac1284a27871a00470fc6946f6ea088010539b",
+  "notes": "R18.36 Homologação: pacote pós-homologação com correções de permissões e privacidade financeira, Pagar Depois, consumo por entrega, suprimento e sangria de caixa, contas a pagar vencidas, senhas e usuários, custos pelo último valor informado, consulta/atualização de custos no App de Gastos, melhorias dos Apps/PWA, Controle Rápido com dois botões dinâmicos, correções do Financeiro mobile, numeração visível de pedidos, identidade do restaurante, câmera NFC-e e ajustes de layout e legibilidade. Pipeline de regressão atualizado para a nova regra de último custo e consumo por entrega; publicação retomada após validação completa. Validação automática completa aprovada antes da nova publicação. Correção de inicialização: supervisor alinhado ao build R18.36 e validação do pipeline reforçada para impedir divergência futura entre app e supervisor."
 }
