@@ -1,3 +1,3 @@
-# Homologação R18.40
+# Homologação R18.41
 
-R18.40 Homologação — hotfix imediato da R18.39. Corrige Internal Server Error ao abrir a tela principal após atualização. A causa foi uma leitura de configuração chamada na rota inicial sem o helper correspondente. Nenhum dado do banco foi alterado. Mantém todos os ajustes da R18.39, janela única, ambiente de Homologação, Google Drive e Worker 1.35.0 inalterado.
+R18.41 Homologação — corrige a impressão da Conferência do dia. A rota /print/cash-conference colidia com a rota dinâmica de impressão de pedidos /print/{order_id}, fazendo o sistema tentar interpretar 'cash-conference' como número de pedido. A impressão foi movida para uma rota própria sem conflito. Também aproxima os valores das respectivas formas de pagamento na tela da Conferência. Mantém os demais ajustes da R18.40/R18.39. Produção e Worker permanecem inalterados.

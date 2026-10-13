@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.40",
-  "build": "R18.40-HOMOLOGACAO-HOTFIX-ROOT",
+  "release": "R18.41",
+  "build": "R18.41-HOMOLOGACAO-CONFERENCE-PRINT-FIX",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.40/Sistema_Restaurante_Massas_R18.40_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "9aa15db106a0e477cfd7b2f48f5ebc9fd83d0d434ed8f04c203dec9521026be2",
-  "source_fingerprint": "842c0addc3b01b254a2ad5bfc1fd4d90ccb5094b175e0892c38fb436e668f013",
-  "notes": "R18.40 Homologação — hotfix imediato da R18.39. Corrige Internal Server Error ao abrir a tela principal após atualização. A causa foi uma leitura de configuração chamada na rota inicial sem o helper correspondente. Nenhum dado do banco foi alterado. Mantém todos os ajustes da R18.39, janela única, ambiente de Homologação, Google Drive e Worker 1.35.0 inalterado."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.41/Sistema_Restaurante_Massas_R18.41_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "57c584f011b9a429b96ccff9bd29f206dff14363a8492ca9653673bfef68e6fa",
+  "source_fingerprint": "f5805e8dbe7ac89e002b5720204e8887154bf75c30549b53084b125df8ce00a3",
+  "notes": "R18.41 Homologação — corrige a impressão da Conferência do dia. A rota /print/cash-conference colidia com a rota dinâmica de impressão de pedidos /print/{order_id}, fazendo o sistema tentar interpretar 'cash-conference' como número de pedido. A impressão foi movida para uma rota própria sem conflito. Também aproxima os valores das respectivas formas de pagamento na tela da Conferência. Mantém os demais ajustes da R18.40/R18.39. Produção e Worker permanecem inalterados."
 }
