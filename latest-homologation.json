@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.36",
-  "build": "R18.36-POS-HOMOLOGACAO-HARDENING",
+  "release": "R18.37",
+  "build": "R18.37-HOMOLOGACAO-UPDATE-TEST",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.36/Sistema_Restaurante_Massas_R18.36_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "872c267eb0ada342b267eb8fc9eb4da4c8d9899a06527423e544e26132089f95",
-  "source_fingerprint": "fd9a6e3e10873e44d51cf8167f8cbf935eb8c483fa1081b1124a31492dcb5f1d",
-  "notes": "R18.36 Homologação: pacote pós-homologação com correções de permissões e privacidade financeira, Pagar Depois, consumo por entrega, suprimento e sangria de caixa, contas a pagar vencidas, senhas e usuários, custos pelo último valor informado, consulta/atualização de custos no App de Gastos, melhorias dos Apps/PWA, Controle Rápido com dois botões dinâmicos, correções do Financeiro mobile, numeração visível de pedidos, identidade do restaurante, câmera NFC-e e ajustes de layout e legibilidade. Pipeline de regressão atualizado para a nova regra de último custo e consumo por entrega; publicação retomada após validação completa. Validação automática completa aprovada antes da nova publicação. Correção de inicialização: supervisor alinhado ao build R18.36 e validação do pipeline reforçada para impedir divergência futura entre app e supervisor. Correção adicional de inicialização da interface: utilitários DOM carregados antes dos observadores/permissões, restaurando login, navegação, botões e carregamento dos dados; regressão automática adicionada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.37/Sistema_Restaurante_Massas_R18.37_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "1eb2d4223201a3690a9c194e4628863c64ae40b4c4f512f211d838acbe8c1dca",
+  "source_fingerprint": "6efab765ac8a45584000f38c99189e1a8545ebc6c0af47883dfc4c4dd6ae5075",
+  "notes": "R18.37 Homologação: versão exclusiva para validar o atualizador automático no computador de homologação. Sem liberação para Produção e sem alteração do Worker. O teste deve confirmar exibição do card de atualização, backup pré-atualização, download e validação do pacote, fechamento da janela antiga, instalação, reabertura maximizada e preservação dos dados, do ambiente HOMOLOGAÇÃO, do Google Drive e da sincronização online."
 }
