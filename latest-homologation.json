@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.38",
-  "build": "R18.38-HOMOLOGACAO-UPDATE-SINGLE-WINDOW",
+  "release": "R18.39",
+  "build": "R18.39-HOMOLOGACAO-CONSOLIDACAO-FINAL",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.38/Sistema_Restaurante_Massas_R18.38_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "0582ce96a41df9e42cf4be20712e32431affc6546f0e79887b7aaad211f750e5",
-  "source_fingerprint": "65cfc6c29d83ca94db5534354ffecbcae0c2bd46508aa305e57532b75e7f666c",
-  "notes": "R18.38 Homologação: corrige a atualização automática para reabrir somente uma janela do sistema após instalar, deixando o supervisor como único responsável pela abertura da interface. Também reposiciona o aviso de atualização para ficar logo abaixo de Visão Geral/data, alinhado à esquerda. Versão exclusiva de homologação; Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.39/Sistema_Restaurante_Massas_R18.39_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "0fa2f9ba7dc685d56f14b3a50c53b222ab8b1c9d4bf70086e99930740f293ef5",
+  "source_fingerprint": "f1c5dccc58e196c1c9349599047cd3c77868663a45a1228b8283e990f4e92544",
+  "notes": "R18.39 Homologação — consolidação final: modo Conferência do dia quando Exigir caixa aberto estiver desativado, com totais, formas de pagamento, divisão por turnos e impressão térmica; painéis financeiros por turno abaixo de Formas de pagamento/Resumo; destaque completo para contas vencidas; Google Drive com lista online junto ao status e feedback de atualização; oferta automática de restauração em instalação limpa ao detectar backups; recuperação de senha exclusiva do Administrador mediante confirmação da mesma conta Google conectada; Administrador logado continua podendo redefinir a senha de qualquer usuário sem exigir a senha antiga. Mantém a correção de janela única e o aviso de atualização próximo da Visão Geral. Produção e Worker permanecem inalterados."
 }

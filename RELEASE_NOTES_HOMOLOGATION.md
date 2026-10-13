@@ -1,3 +1,3 @@
-# Homologação R18.38
+# Homologação R18.39
 
-R18.38 Homologação: corrige a atualização automática para reabrir somente uma janela do sistema após instalar, deixando o supervisor como único responsável pela abertura da interface. Também reposiciona o aviso de atualização para ficar logo abaixo de Visão Geral/data, alinhado à esquerda. Versão exclusiva de homologação; Produção e Worker permanecem inalterados.
+R18.39 Homologação — consolidação final: modo Conferência do dia quando Exigir caixa aberto estiver desativado, com totais, formas de pagamento, divisão por turnos e impressão térmica; painéis financeiros por turno abaixo de Formas de pagamento/Resumo; destaque completo para contas vencidas; Google Drive com lista online junto ao status e feedback de atualização; oferta automática de restauração em instalação limpa ao detectar backups; recuperação de senha exclusiva do Administrador mediante confirmação da mesma conta Google conectada; Administrador logado continua podendo redefinir a senha de qualquer usuário sem exigir a senha antiga. Mantém a correção de janela única e o aviso de atualização próximo da Visão Geral. Produção e Worker permanecem inalterados.
