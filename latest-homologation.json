@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.39",
-  "build": "R18.39-HOMOLOGACAO-CONSOLIDACAO-FINAL",
+  "release": "R18.40",
+  "build": "R18.40-HOMOLOGACAO-HOTFIX-ROOT",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.39/Sistema_Restaurante_Massas_R18.39_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "e9129f0e8f37ded754d768356ecab93dde1f73a5fa88191c1ef3cdc20c47871c",
-  "source_fingerprint": "13f1710eb3da76110fd6cb922024bb438aaa23dbce4bddfc9b816dd4a343fe5f",
-  "notes": "R18.39 Homologação — consolidação final: modo Conferência do dia quando Exigir caixa aberto estiver desativado, com totais, formas de pagamento, divisão por turnos e impressão térmica; painéis financeiros por turno abaixo de Formas de pagamento/Resumo; destaque completo para contas vencidas; Google Drive com lista online junto ao status e feedback de atualização; oferta automática de restauração em instalação limpa ao detectar backups; recuperação de senha exclusiva do Administrador mediante confirmação da mesma conta Google conectada; Administrador logado continua podendo redefinir a senha de qualquer usuário sem exigir a senha antiga. Mantém a correção de janela única e o aviso de atualização próximo da Visão Geral. Pacote final recompilado após todas as validações automáticas. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.40/Sistema_Restaurante_Massas_R18.40_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "9aa15db106a0e477cfd7b2f48f5ebc9fd83d0d434ed8f04c203dec9521026be2",
+  "source_fingerprint": "842c0addc3b01b254a2ad5bfc1fd4d90ccb5094b175e0892c38fb436e668f013",
+  "notes": "R18.40 Homologação — hotfix imediato da R18.39. Corrige Internal Server Error ao abrir a tela principal após atualização. A causa foi uma leitura de configuração chamada na rota inicial sem o helper correspondente. Nenhum dado do banco foi alterado. Mantém todos os ajustes da R18.39, janela única, ambiente de Homologação, Google Drive e Worker 1.35.0 inalterado."
 }
