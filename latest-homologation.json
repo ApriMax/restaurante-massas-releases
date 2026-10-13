@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.41",
-  "build": "R18.41-HOMOLOGACAO-CONFERENCE-PRINT-FIX",
+  "release": "R18.42",
+  "build": "R18.42-HOMOLOGACAO-DASHBOARD-HEADER",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.41/Sistema_Restaurante_Massas_R18.41_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "57c584f011b9a429b96ccff9bd29f206dff14363a8492ca9653673bfef68e6fa",
-  "source_fingerprint": "f5805e8dbe7ac89e002b5720204e8887154bf75c30549b53084b125df8ce00a3",
-  "notes": "R18.41 Homologação — corrige a impressão da Conferência do dia. A rota /print/cash-conference colidia com a rota dinâmica de impressão de pedidos /print/{order_id}, fazendo o sistema tentar interpretar 'cash-conference' como número de pedido. A impressão foi movida para uma rota própria sem conflito. Também aproxima os valores das respectivas formas de pagamento na tela da Conferência. Mantém os demais ajustes da R18.40/R18.39. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.42/Sistema_Restaurante_Massas_R18.42_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "79d29ed11de36a483e17552b091e29438d2361e59859cc9d3b998896e0b4dd28",
+  "source_fingerprint": "2bcf697bfdca70c4f88f54f30ddff3c4343cf9eb90ecc2928f53df9f3af8784b",
+  "notes": "R18.42 Homologação — ajusta o cabeçalho da Visão Geral: o aviso de nova atualização deixa de ficar centralizado no dashboard e passa a aparecer logo abaixo de Visão Geral/data, alinhado à esquerda, mantendo usuário, ambiente e conexão no canto direito. Inclui também a correção da impressão da Conferência do dia e o ajuste de proximidade entre forma de pagamento e valor da R18.41. Produção e Worker permanecem inalterados."
 }

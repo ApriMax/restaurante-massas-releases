@@ -1,3 +1,3 @@
-# Homologação R18.41
+# Homologação R18.42
 
-R18.41 Homologação — corrige a impressão da Conferência do dia. A rota /print/cash-conference colidia com a rota dinâmica de impressão de pedidos /print/{order_id}, fazendo o sistema tentar interpretar 'cash-conference' como número de pedido. A impressão foi movida para uma rota própria sem conflito. Também aproxima os valores das respectivas formas de pagamento na tela da Conferência. Mantém os demais ajustes da R18.40/R18.39. Produção e Worker permanecem inalterados.
+R18.42 Homologação — ajusta o cabeçalho da Visão Geral: o aviso de nova atualização deixa de ficar centralizado no dashboard e passa a aparecer logo abaixo de Visão Geral/data, alinhado à esquerda, mantendo usuário, ambiente e conexão no canto direito. Inclui também a correção da impressão da Conferência do dia e o ajuste de proximidade entre forma de pagamento e valor da R18.41. Produção e Worker permanecem inalterados.
