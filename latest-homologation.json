@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.37",
-  "build": "R18.37-HOMOLOGACAO-UPDATE-TEST",
+  "release": "R18.38",
+  "build": "R18.38-HOMOLOGACAO-UPDATE-SINGLE-WINDOW",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.37/Sistema_Restaurante_Massas_R18.37_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "1eb2d4223201a3690a9c194e4628863c64ae40b4c4f512f211d838acbe8c1dca",
-  "source_fingerprint": "6efab765ac8a45584000f38c99189e1a8545ebc6c0af47883dfc4c4dd6ae5075",
-  "notes": "R18.37 Homologação: versão exclusiva para validar o atualizador automático no computador de homologação. Sem liberação para Produção e sem alteração do Worker. O teste deve confirmar exibição do card de atualização, backup pré-atualização, download e validação do pacote, fechamento da janela antiga, instalação, reabertura maximizada e preservação dos dados, do ambiente HOMOLOGAÇÃO, do Google Drive e da sincronização online."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.38/Sistema_Restaurante_Massas_R18.38_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "0582ce96a41df9e42cf4be20712e32431affc6546f0e79887b7aaad211f750e5",
+  "source_fingerprint": "65cfc6c29d83ca94db5534354ffecbcae0c2bd46508aa305e57532b75e7f666c",
+  "notes": "R18.38 Homologação: corrige a atualização automática para reabrir somente uma janela do sistema após instalar, deixando o supervisor como único responsável pela abertura da interface. Também reposiciona o aviso de atualização para ficar logo abaixo de Visão Geral/data, alinhado à esquerda. Versão exclusiva de homologação; Produção e Worker permanecem inalterados."
 }
