@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.44",
-  "build": "R18.44-HOMOLOGACAO-DASHBOARD-ALERTS",
+  "release": "R18.45",
+  "build": "R18.45-HOMOLOGACAO-USERS-ACTIONS-FIX",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.44/Sistema_Restaurante_Massas_R18.44_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "90e01b4cf8a36c9f3d2181394d60e04aa6ceda803cb8ce71e546801fb49ee99a",
-  "source_fingerprint": "99ebea361020b83be2d768c1387e76a7af681c68d709293f15ab5f5dc1c1c142",
-  "notes": "R18.44 Homologação — move Alertas operacionais para imediatamente abaixo de Funcionamento e turnos na Visão Geral, mantendo Saúde do Sistema na parte inferior. Inclui também o quadro Formas de pagamento da Conferência do dia centralizado e compacto da R18.43 e preserva a impressão aprovada. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.45/Sistema_Restaurante_Massas_R18.45_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "8713d69726bbd6479d3dac05aafb3ec41ec143597ed33048fae186d4e1bfc13a",
+  "source_fingerprint": "db7c8d124b8f41640bd7519e855b1b6b1f6537e26573bda5cf0e54f38e4984b2",
+  "notes": "R18.45 Homologação — corrige os botões Redefinir senha e Excluir em Usuários e Permissões. A causa era a montagem do onclick com o nome do usuário entre aspas dentro do próprio atributo HTML, quebrando o clique. Os botões agora usam apenas o ID e resolvem o nome internamente. Administrador logado pode redefinir a senha de qualquer usuário sem informar a senha antiga; exclusão do próprio usuário conectado permanece bloqueada. Mantém todos os ajustes visuais e funcionais aprovados da R18.44. Produção e Worker permanecem inalterados."
 }
