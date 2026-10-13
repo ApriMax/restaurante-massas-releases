@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.43",
-  "build": "R18.43-HOMOLOGACAO-CONFERENCE-VISUAL",
+  "release": "R18.44",
+  "build": "R18.44-HOMOLOGACAO-DASHBOARD-ALERTS",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.43/Sistema_Restaurante_Massas_R18.43_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "a63b9840f851f0ac41ddbc6b20a58956c58dcc05eb2caaa2804c7c2d09fe283e",
-  "source_fingerprint": "79afae3c9728610d5bff8d1fbe331b6d4e850bb9eae4c662f08dd7d0bd399028",
-  "notes": "R18.43 Homologação — centraliza e compacta o quadro Formas de pagamento da Conferência do dia, deixando as bordas mais próximas dos dados. Mantém a impressão aprovada sem alterações. Esta versão também permite validar definitivamente o novo posicionamento do aviso de atualização logo abaixo de Visão Geral/data. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.44/Sistema_Restaurante_Massas_R18.44_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "90e01b4cf8a36c9f3d2181394d60e04aa6ceda803cb8ce71e546801fb49ee99a",
+  "source_fingerprint": "99ebea361020b83be2d768c1387e76a7af681c68d709293f15ab5f5dc1c1c142",
+  "notes": "R18.44 Homologação — move Alertas operacionais para imediatamente abaixo de Funcionamento e turnos na Visão Geral, mantendo Saúde do Sistema na parte inferior. Inclui também o quadro Formas de pagamento da Conferência do dia centralizado e compacto da R18.43 e preserva a impressão aprovada. Produção e Worker permanecem inalterados."
 }
