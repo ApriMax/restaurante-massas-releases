@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.1",
-  "build": "R18.46.1-HOMOLOGACAO-CAIXA-PRIVACIDADE-HOTFIX",
+  "release": "R18.46.2",
+  "build": "R18.46.2-HOMOLOGACAO-PAGERS-MODAL-STACK-HOTFIX",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.1/Sistema_Restaurante_Massas_R18.46.1_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "615be434a24811a65eead6bb89ac221be1712ca7c0af7498ecac86cdea553df9",
-  "source_fingerprint": "96a786e57161c151e84f663149292634729a7c54a8399a40fb537cab3d6dff02",
-  "notes": "R18.46.1 Homologação — correção visual e de privacidade do Operador de Caixa após os testes da R18.46. Oculta completamente os cards Faturamento hoje e Ticket médio do Operador; oculta a faixa Conferência diária quando esse perfil não possui acesso à conferência; remove o alerta Contas vencidas dos Alertas operacionais para usuários sem acesso a Contas a Pagar; mantém Pedidos e detalhes sem valores; e corrige a sobreposição das janelas abertas a partir de Pagers em uso para que Visualizar, Receber, Cancelar, Pager e Pronto apareçam na frente da lista, preservando a lista ao fechar. Mantém os demais ajustes aprovados da R18.46. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.2/Sistema_Restaurante_Massas_R18.46.2_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "d6fc157812e19e757aaebd0d02088a2b2bdb6b7ac3be3aea1b80eb5f7a02ef3f",
+  "source_fingerprint": "2f6f643fe6b578a23541ddb08d3c88008dba05c43c21f82d505156975e1ee2a2",
+  "notes": "R18.46.2 Homologação — corrige definitivamente a sobreposição das janelas abertas a partir de Pagers em uso. A causa era uma regra antiga com `!important` que mantinha todos os modais no mesmo nível visual; agora Visualizar, Receber, Cancelar, Pager e Pronto usam uma camada superior à lista Pagers em uso. Ao fechar a ação, a lista dos Pagers permanece aberta atrás. Mantém os ajustes de privacidade do Operador aprovados na R18.46.1. Produção e Worker permanecem inalterados."
 }
