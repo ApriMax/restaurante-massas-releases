@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.5",
-  "build": "R18.46.5-HOMOLOGACAO-ALERTAS-FECHAR",
+  "release": "R18.46.6",
+  "build": "R18.46.6-HOMOLOGACAO-MONTAGEM-ITENS-NO-TOPO",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.5/Sistema_Restaurante_Massas_R18.46.5_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "cf023743597b5ea0a9a8090fe2a705c62044625b24bfba579cdaa469f1cbb120",
-  "source_fingerprint": "3138c558251c840ac7dfeb94aaa3a0cbe3ea42ed134988fa56f26979538dcd5b",
-  "notes": "R18.46.5 Homologação — adiciona um pequeno botão X em cada Alerta operacional para permitir ocultar avisos que não precisam ou não podem ser resolvidos imediatamente dentro do sistema. O botão Ver continua disponível quando houver ação associada. Ao clicar no X, o alerta fica oculto somente até o dia seguinte neste computador; se a condição continuar, ele volta a aparecer no próximo dia, evitando que alertas importantes sejam esquecidos permanentemente. Mantém todos os ajustes aprovados da R18.46.4. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.6/Sistema_Restaurante_Massas_R18.46.6_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "5e89e931d9372dc4029af345f5a5fcd52e671f50f523a05126239ca395e3e475",
+  "source_fingerprint": "f685c7fe7f6ce050d171e38fb5c46ba5eb147c34def6f544a4ef2d7b6babfbc9",
+  "notes": "R18.46.6 Homologação — ajusta a montagem manual dos pratos para que os itens de cada grupo sempre comecem no topo do card. Remove o espaçamento automático que empurrava opções como Molhos e Ingredientes para a parte inferior quando o card ao lado era mais alto. Tamanhos, Molhos, Ingredientes e demais grupos agora mantêm título, contador/regras e opções agrupados na parte superior. Mantém todos os ajustes aprovados da R18.46.5. Produção e Worker permanecem inalterados."
 }

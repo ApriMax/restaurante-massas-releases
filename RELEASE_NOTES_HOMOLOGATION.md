@@ -1,3 +1,3 @@
-# Homologação R18.46.5
+# Homologação R18.46.6
 
-R18.46.5 Homologação — adiciona um pequeno botão X em cada Alerta operacional para permitir ocultar avisos que não precisam ou não podem ser resolvidos imediatamente dentro do sistema. O botão Ver continua disponível quando houver ação associada. Ao clicar no X, o alerta fica oculto somente até o dia seguinte neste computador; se a condição continuar, ele volta a aparecer no próximo dia, evitando que alertas importantes sejam esquecidos permanentemente. Mantém todos os ajustes aprovados da R18.46.4. Produção e Worker permanecem inalterados.
+R18.46.6 Homologação — ajusta a montagem manual dos pratos para que os itens de cada grupo sempre comecem no topo do card. Remove o espaçamento automático que empurrava opções como Molhos e Ingredientes para a parte inferior quando o card ao lado era mais alto. Tamanhos, Molhos, Ingredientes e demais grupos agora mantêm título, contador/regras e opções agrupados na parte superior. Mantém todos os ajustes aprovados da R18.46.5. Produção e Worker permanecem inalterados.
