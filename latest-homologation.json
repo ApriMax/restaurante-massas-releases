@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.6",
-  "build": "R18.46.6-HOMOLOGACAO-MONTAGEM-ITENS-NO-TOPO",
+  "release": "R18.46.7",
+  "build": "R18.46.7-HOMOLOGACAO-CONTAS-VENCIDAS-DESTAQUE",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.6/Sistema_Restaurante_Massas_R18.46.6_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "5e89e931d9372dc4029af345f5a5fcd52e671f50f523a05126239ca395e3e475",
-  "source_fingerprint": "f685c7fe7f6ce050d171e38fb5c46ba5eb147c34def6f544a4ef2d7b6babfbc9",
-  "notes": "R18.46.6 Homologação — ajusta a montagem manual dos pratos para que os itens de cada grupo sempre comecem no topo do card. Remove o espaçamento automático que empurrava opções como Molhos e Ingredientes para a parte inferior quando o card ao lado era mais alto. Tamanhos, Molhos, Ingredientes e demais grupos agora mantêm título, contador/regras e opções agrupados na parte superior. Mantém todos os ajustes aprovados da R18.46.5. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.7/Sistema_Restaurante_Massas_R18.46.7_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "1891b24d32fec2a281ae6b81e0d787a33b4d84bab27c0a03c2b2d4659be1b7e4",
+  "source_fingerprint": "0ed33bd08d22f3796308834f986c4773bda73d227c5a0a42202277cdea6086af",
+  "notes": "R18.46.7 Homologação — destaca por inteiro as contas vencidas em Contas a Pagar e nas listas compactas do Financeiro. A linha vencida recebe fundo vermelho suave, borda vermelha, faixa lateral mais forte e reforço de cor no nome/valor, mantendo os botões operacionais e a leitura do status. Contas pagas, encerradas e pendentes sem vencimento mantêm o visual normal. Mantém todos os ajustes aprovados da R18.46.6. Produção e Worker permanecem inalterados."
 }
