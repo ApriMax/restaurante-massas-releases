@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.7",
-  "build": "R18.46.7-HOMOLOGACAO-CONTAS-VENCIDAS-DESTAQUE",
+  "release": "R18.46.8",
+  "build": "R18.46.8-HOMOLOGACAO-UNIDADES-E-PORCAO-EXTRA",
   "schema": 31,
-  "worker_version": "1.35.0",
+  "worker_version": "1.36.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.7/Sistema_Restaurante_Massas_R18.46.7_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "1891b24d32fec2a281ae6b81e0d787a33b4d84bab27c0a03c2b2d4659be1b7e4",
-  "source_fingerprint": "0ed33bd08d22f3796308834f986c4773bda73d227c5a0a42202277cdea6086af",
-  "notes": "R18.46.7 Homologação — destaca por inteiro as contas vencidas em Contas a Pagar e nas listas compactas do Financeiro. A linha vencida recebe fundo vermelho suave, borda vermelha, faixa lateral mais forte e reforço de cor no nome/valor, mantendo os botões operacionais e a leitura do status. Contas pagas, encerradas e pendentes sem vencimento mantêm o visual normal. Mantém todos os ajustes aprovados da R18.46.6. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.8/Sistema_Restaurante_Massas_R18.46.8_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "ab067f6b0945fb148f9634cad12c152be355b993673cf928d685a1a22c965dfa",
+  "source_fingerprint": "79666cf17b47cab51ae8878f564250e9a418a389563841be08962800d0021b53",
+  "notes": "R18.46.8 Homologação — amplia o controle de custos e adicionais. Em Produto Pronto / Receita Fixa, itens cuja unidade de consumo principal é UN passam a ter campo de quantidade na receita (ex.: 2 salsichas). Itens consumidos em UN podem usar uma equivalência secundária em peso ou volume para calcular o custo pela base real de compra; ex.: 1 UN = 50 g e último custo R$ 20,00/KG resulta em R$ 1,00 por unidade. O prato Montável mantém a seleção normal, mas quando Ingredientes ou Molhos permitem excedente e possuem valor adicional, um item já selecionado pode receber porções extras pagas do mesmo item (ex.: Bacon +1 porção), tanto no pedido manual quanto no pedido online. Cada porção extra soma o valor adicional do grupo, acrescenta uma porção ao consumo/custo, aparece no resumo, acompanhamento e impressão da cozinha. Produção permanece inalterada."
 }
