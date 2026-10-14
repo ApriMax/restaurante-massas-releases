@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.45",
-  "build": "R18.45-HOMOLOGACAO-USERS-ACTIONS-FIX",
+  "release": "R18.46",
+  "build": "R18.46-HOMOLOGACAO-PERMISSOES-PAGERS-CONFERENCIA",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.45/Sistema_Restaurante_Massas_R18.45_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "8713d69726bbd6479d3dac05aafb3ec41ec143597ed33048fae186d4e1bfc13a",
-  "source_fingerprint": "db7c8d124b8f41640bd7519e855b1b6b1f6537e26573bda5cf0e54f38e4984b2",
-  "notes": "R18.45 Homologação — corrige os botões Redefinir senha e Excluir em Usuários e Permissões. A causa era a montagem do onclick com o nome do usuário entre aspas dentro do próprio atributo HTML, quebrando o clique. Os botões agora usam apenas o ID e resolvem o nome internamente. Administrador logado pode redefinir a senha de qualquer usuário sem informar a senha antiga; exclusão do próprio usuário conectado permanece bloqueada. Mantém todos os ajustes visuais e funcionais aprovados da R18.44. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46/Sistema_Restaurante_Massas_R18.46_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "2ea856064f4fd71dcde1b5f85c868979ccd7516f8a4192007649dc7e7ae672e4",
+  "source_fingerprint": "be1286ebd56c89b7d3253d43b96fe22e9cda5ebb4e40cb9539d4a79b837c3403",
+  "notes": "R18.46 Homologação — reforça as restrições do Operador de Caixa: a Conferência do dia ganhou permissão própria e não fica disponível no perfil Caixa; Pedidos de hoje e detalhes deixam de expor valores para usuários sem permissão financeira, preservando o recebimento operacional por consulta protegida no momento de cobrar; ao trocar de usuário, a sessão retorna para a Visão Geral. Na Conferência, o card Formas de pagamento ficou menor e centralizado, com forma à esquerda e valor à direita, e o aviso de ausência de turnos usa toda a largura disponível antes de quebrar linha. O card Pagers em uso agora abre os pedidos vinculados com ações operacionais para concluir o fluxo diretamente pela Visão Geral. Mantém R18.45 e todos os Apps de Homologação já validados. Produção e Worker permanecem inalterados."
 }
