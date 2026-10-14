@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.4",
-  "build": "R18.46.4-HOMOLOGACAO-PAGERS-FLUXO-MODAL-FINAL",
+  "release": "R18.46.5",
+  "build": "R18.46.5-HOMOLOGACAO-ALERTAS-FECHAR",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.4/Sistema_Restaurante_Massas_R18.46.4_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "b06a7c46c2eaece48e2710a6f72cfc8d229b500ea12757326dd32a3cf2c21cac",
-  "source_fingerprint": "9a5cdf38e9c90eda70987602d666a57333b95af7ca0617dda1a75e7fad10afb1",
-  "notes": "R18.46.4 Homologação — corrige o fluxo de Pagers em uso após identificar a causa real da janela do pedido voltar para trás. O botão Visualizar abria corretamente o detalhe, mas a própria lista Pagers em uso era reaberta automaticamente 900 ms depois por um evento antigo, ficando novamente na frente. Essa reabertura automática foi removida. Agora Visualizar, Receber, Cancelar, Pager e Pronto podem abrir suas telas acima da lista sem que ela seja trazida para frente depois; ao fechar a ação, a lista dos Pagers continua aberta atrás. Mantém os ajustes de privacidade do Operador aprovados na R18.46.1 e a correção de camadas da R18.46.3. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.5/Sistema_Restaurante_Massas_R18.46.5_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "cf023743597b5ea0a9a8090fe2a705c62044625b24bfba579cdaa469f1cbb120",
+  "source_fingerprint": "3138c558251c840ac7dfeb94aaa3a0cbe3ea42ed134988fa56f26979538dcd5b",
+  "notes": "R18.46.5 Homologação — adiciona um pequeno botão X em cada Alerta operacional para permitir ocultar avisos que não precisam ou não podem ser resolvidos imediatamente dentro do sistema. O botão Ver continua disponível quando houver ação associada. Ao clicar no X, o alerta fica oculto somente até o dia seguinte neste computador; se a condição continuar, ele volta a aparecer no próximo dia, evitando que alertas importantes sejam esquecidos permanentemente. Mantém todos os ajustes aprovados da R18.46.4. Produção e Worker permanecem inalterados."
 }
