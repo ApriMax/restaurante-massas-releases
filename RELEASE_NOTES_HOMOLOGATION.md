@@ -1,3 +1,3 @@
-# Homologação R18.46.2
+# Homologação R18.46.3
 
-R18.46.2 Homologação — corrige definitivamente a sobreposição das janelas abertas a partir de Pagers em uso. A causa era uma regra antiga com `!important` que mantinha todos os modais no mesmo nível visual; agora Visualizar, Receber, Cancelar, Pager e Pronto usam uma camada superior à lista Pagers em uso. Ao fechar a ação, a lista dos Pagers permanece aberta atrás. Mantém os ajustes de privacidade do Operador aprovados na R18.46.1. Produção e Worker permanecem inalterados.
+R18.46.3 Homologação — correção final da sobreposição das janelas abertas a partir de Pagers em uso. Foi identificada uma regra antiga de modal com `!important` e especificidade maior, que anulava a correção anterior. A regra final usa seletor mais específico e fica no fim da folha de estilos, garantindo que Visualizar, Receber, Cancelar, Pager e Pronto abram acima da lista Pagers em uso. Ao fechar a ação, a lista permanece aberta atrás. Mantém todos os ajustes de privacidade do Operador aprovados na R18.46.1. Produção e Worker permanecem inalterados.

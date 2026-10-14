@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.2",
-  "build": "R18.46.2-HOMOLOGACAO-PAGERS-MODAL-STACK-HOTFIX",
+  "release": "R18.46.3",
+  "build": "R18.46.3-HOMOLOGACAO-PAGERS-MODAL-STACK-FINAL",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.2/Sistema_Restaurante_Massas_R18.46.2_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "d6fc157812e19e757aaebd0d02088a2b2bdb6b7ac3be3aea1b80eb5f7a02ef3f",
-  "source_fingerprint": "2f6f643fe6b578a23541ddb08d3c88008dba05c43c21f82d505156975e1ee2a2",
-  "notes": "R18.46.2 Homologação — corrige definitivamente a sobreposição das janelas abertas a partir de Pagers em uso. A causa era uma regra antiga com `!important` que mantinha todos os modais no mesmo nível visual; agora Visualizar, Receber, Cancelar, Pager e Pronto usam uma camada superior à lista Pagers em uso. Ao fechar a ação, a lista dos Pagers permanece aberta atrás. Mantém os ajustes de privacidade do Operador aprovados na R18.46.1. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.3/Sistema_Restaurante_Massas_R18.46.3_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "bdf0e15c91a62e29fcfdd8ad6790ced1972a2280513b83f060702f862aa797e8",
+  "source_fingerprint": "7b976b3ca6317b0f84400442938d65ce7db69e7d5dffdb61dd9738d96139e18f",
+  "notes": "R18.46.3 Homologação — correção final da sobreposição das janelas abertas a partir de Pagers em uso. Foi identificada uma regra antiga de modal com `!important` e especificidade maior, que anulava a correção anterior. A regra final usa seletor mais específico e fica no fim da folha de estilos, garantindo que Visualizar, Receber, Cancelar, Pager e Pronto abram acima da lista Pagers em uso. Ao fechar a ação, a lista permanece aberta atrás. Mantém todos os ajustes de privacidade do Operador aprovados na R18.46.1. Produção e Worker permanecem inalterados."
 }
