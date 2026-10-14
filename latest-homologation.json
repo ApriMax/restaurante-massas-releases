@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46",
-  "build": "R18.46-HOMOLOGACAO-PERMISSOES-PAGERS-CONFERENCIA",
+  "release": "R18.46.1",
+  "build": "R18.46.1-HOMOLOGACAO-CAIXA-PRIVACIDADE-HOTFIX",
   "schema": 31,
   "worker_version": "1.35.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46/Sistema_Restaurante_Massas_R18.46_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "2ea856064f4fd71dcde1b5f85c868979ccd7516f8a4192007649dc7e7ae672e4",
-  "source_fingerprint": "be1286ebd56c89b7d3253d43b96fe22e9cda5ebb4e40cb9539d4a79b837c3403",
-  "notes": "R18.46 Homologação — reforça as restrições do Operador de Caixa: a Conferência do dia ganhou permissão própria e não fica disponível no perfil Caixa; Pedidos de hoje e detalhes deixam de expor valores para usuários sem permissão financeira, preservando o recebimento operacional por consulta protegida no momento de cobrar; ao trocar de usuário, a sessão retorna para a Visão Geral. Na Conferência, o card Formas de pagamento ficou menor e centralizado, com forma à esquerda e valor à direita, e o aviso de ausência de turnos usa toda a largura disponível antes de quebrar linha. O card Pagers em uso agora abre os pedidos vinculados com ações operacionais para concluir o fluxo diretamente pela Visão Geral. Mantém R18.45 e todos os Apps de Homologação já validados. Produção e Worker permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.1/Sistema_Restaurante_Massas_R18.46.1_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "615be434a24811a65eead6bb89ac221be1712ca7c0af7498ecac86cdea553df9",
+  "source_fingerprint": "96a786e57161c151e84f663149292634729a7c54a8399a40fb537cab3d6dff02",
+  "notes": "R18.46.1 Homologação — correção visual e de privacidade do Operador de Caixa após os testes da R18.46. Oculta completamente os cards Faturamento hoje e Ticket médio do Operador; oculta a faixa Conferência diária quando esse perfil não possui acesso à conferência; remove o alerta Contas vencidas dos Alertas operacionais para usuários sem acesso a Contas a Pagar; mantém Pedidos e detalhes sem valores; e corrige a sobreposição das janelas abertas a partir de Pagers em uso para que Visualizar, Receber, Cancelar, Pager e Pronto apareçam na frente da lista, preservando a lista ao fechar. Mantém os demais ajustes aprovados da R18.46. Produção e Worker permanecem inalterados."
 }
