@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.8",
-  "build": "R18.46.8-HOMOLOGACAO-UNIDADES-E-PORCAO-EXTRA",
+  "release": "R18.46.9",
+  "build": "R18.46.9-HOMOLOGACAO-PORCOES-INCLUSAS-E-LAYOUT-CUSTOS",
   "schema": 31,
-  "worker_version": "1.36.0",
+  "worker_version": "1.37.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.8/Sistema_Restaurante_Massas_R18.46.8_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "ab067f6b0945fb148f9634cad12c152be355b993673cf928d685a1a22c965dfa",
-  "source_fingerprint": "79666cf17b47cab51ae8878f564250e9a418a389563841be08962800d0021b53",
-  "notes": "R18.46.8 Homologação — amplia o controle de custos e adicionais. Em Produto Pronto / Receita Fixa, itens cuja unidade de consumo principal é UN passam a ter campo de quantidade na receita (ex.: 2 salsichas). Itens consumidos em UN podem usar uma equivalência secundária em peso ou volume para calcular o custo pela base real de compra; ex.: 1 UN = 50 g e último custo R$ 20,00/KG resulta em R$ 1,00 por unidade. O prato Montável mantém a seleção normal, mas quando Ingredientes ou Molhos permitem excedente e possuem valor adicional, um item já selecionado pode receber porções extras pagas do mesmo item (ex.: Bacon +1 porção), tanto no pedido manual quanto no pedido online. Cada porção extra soma o valor adicional do grupo, acrescenta uma porção ao consumo/custo, aparece no resumo, acompanhamento e impressão da cozinha. Produção permanece inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.9/Sistema_Restaurante_Massas_R18.46.9_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "51a0ada9ef5fa195602ab3b7db41b7012bf04514b04cbbdeee9dacf1c6619404",
+  "source_fingerprint": "80133b6ef1b36866399c5483a37f99668fd1f71f112479a036d2225ac71a73e8",
+  "notes": "R18.46.9 Homologação — adiciona um módulo opcional para o Administrador decidir se porções repetidas do mesmo Ingrediente/Molho consomem primeiro a quantidade incluída do tamanho. Com o módulo ativo, por exemplo, um tamanho com 4 ingredientes pode usar Bacon x2 + Cebola + Milho sem cobrança extra; somente a 5ª porção passa a ser adicional pago. Com o módulo desativado, mantém o comportamento anterior, em que toda repetição é adicional. A regra vale no pedido manual e online, preservando consumo e custo de todas as porções. Também reorganiza a janela Consumo e custo: Unidade de medida, Quantidade usada por porção, Base do custo e Custo atual ficam menores e centralizados; Base do custo e Custo atual ficam alinhados; a explicação sobre custo por KG ocupa a largura do card e só quebra ao alcançar a borda. Produção permanece inalterada."
 }
