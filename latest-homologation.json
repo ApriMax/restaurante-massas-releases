@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.10",
-  "build": "R18.46.10-HOMOLOGACAO-UNIDADES-CADASTRADAS-E-REGRAS-COMPACTAS",
+  "release": "R18.46.12",
+  "build": "R18.46.12-HOMOLOGACAO-LAYOUT-SLIM-GUIA-PRESENCIAL",
   "schema": 31,
-  "worker_version": "1.37.0",
+  "worker_version": "1.37.1",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.10/Sistema_Restaurante_Massas_R18.46.10_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "e8f4cc454034c570f635ceeddf2f21506d73b15885fb194c5b16d4edef1a6092",
-  "source_fingerprint": "23bf5d2d41b22ae94182d7903adbebb9575734a9b866d402d84207230608cf63",
-  "notes": "R18.46.10 Homologação — remove o campo inline “Nova unidade” da tela Consumo e custo e substitui por um botão “Cadastrar unidade”. O Administrador pode cadastrar unidades personalizadas reutilizáveis, como fatia, dose ou concha; elas ficam salvas e passam a aparecer nas listas de unidade principal e segunda medida. Mantém KG, Gr, ML e UN como unidades padrão. Também compacta e alinha as regras de cada etapa da montagem do prato: Cliente precisa escolher?, Permitir adicionais pagos?, Valor de cada excedente e demais cards da mesma faixa ficaram menores, alinhados à esquerda, com checkbox reduzido e mensagens auxiliares mais compactas. O ajuste vale para todas as etapas do editor de montagem. Mantém as regras de porções repetidas da R18.46.9. Worker 1.37.0 e Produção permanecem inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.12/Sistema_Restaurante_Massas_R18.46.12_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "e3bfc6fb4ac0a32483f79b74f32ab519a2503389d8e8add0c35201dd581bb4bf",
+  "source_fingerprint": "7585fd60c33d635c183fa226743c2d0b58824bf891389c24a343c3df44a455fd",
+  "notes": "R18.46.12 Homologação cumulativa: R18.46.11 incluída (exclusão protegida de unidades personalizadas, porções repetidas compactas e tamanho obrigatório antes dos demais grupos). Remove PIN visual do Controle Rápido; compacta Pedidos e Cardápio, Formas de Pagamento e Backup e Segurança; organiza Geral em subabas Dados do restaurante e Impressoras e Pagers; aumenta discretamente fontes e ícones do menu sem mudar largura; reforça bordas; alinha 5 indicadores de Contas a Pagar; reduz campo Novo item nos Cadastros; padroniza alinhamento à direita de Salvar e ações relacionadas; adiciona guia ilustrado A5 para pedido presencial em PDF, com Visualizar guia e Baixar guia PDF junto ao QR Presencial. Atualiza somente Homologação e Worker de Homologação; Produção não alterada."
 }
