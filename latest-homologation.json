@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.15",
-  "build": "R18.46.15-HOMOLOGACAO-CONFIGURACOES-COMPACTAS",
-  "schema": 32,
-  "worker_version": "1.37.2",
+  "release": "R18.46.16",
+  "build": "R18.46.16-HOMOLOGACAO-REGRAS-COMBINADAS-LIMITES-DINAMICOS",
+  "schema": 33,
+  "worker_version": "1.38.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.15/Sistema_Restaurante_Massas_R18.46.15_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "3e64436a19732bacb0b6c3b6f37da65f9db84710d982a1c528b91528fe12838f",
-  "source_fingerprint": "12c7e27bfc5ed493bdddc6544c2066d17658b2f0c3e357af4a51959978022b52",
-  "notes": "R18.46.15 Homologação: campos Peso neste prato, Porção diferenciada e Custo individual agora são configurados em janelas compactas com Ativar, Editar e Remover. Mantido o custo por KG ou por porção e o resumo por sabor; sem mudanças no Worker nem na Produção."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.16/Sistema_Restaurante_Massas_R18.46.16_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "0d7a9b13daffe1930d6c35fa466a89df414f2ffa0d45280e8714a74980d68523",
+  "source_fingerprint": "bb88d43bf89f4bead433c0824f63ad1b387aa8fb0a70d147767a0b849a550807",
+  "notes": "R18.46.16 Homologação: criar e editar grupos existentes com regras independentes de Tamanhos e Sabores (ambas podem ser ativadas). Cada tamanho aceita limites configuráveis para qualquer grupo do prato, inclusive Temperos, Recheios e grupos futuros, com permissão de excedentes por grupo e validação no pedido local e online. Preserva cadastros, opções, custos e limites legados. Atualiza somente Worker e D1 de Homologação; Produção inalterada."
 }
