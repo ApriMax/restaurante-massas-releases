@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.9",
-  "build": "R18.46.9-HOMOLOGACAO-PORCOES-INCLUSAS-E-LAYOUT-CUSTOS",
+  "release": "R18.46.10",
+  "build": "R18.46.10-HOMOLOGACAO-UNIDADES-CADASTRADAS-E-REGRAS-COMPACTAS",
   "schema": 31,
   "worker_version": "1.37.0",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.9/Sistema_Restaurante_Massas_R18.46.9_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "fa1b9aa9a481922119d48ae63c6b69059a9492f23677e62cbb56b867843e4a15",
-  "source_fingerprint": "80133b6ef1b36866399c5483a37f99668fd1f71f112479a036d2225ac71a73e8",
-  "notes": "R18.46.9 Homologação — adiciona, em Configurações > Módulos opcionais, a opção “Porções repetidas usam os itens incluídos”. Quando ativada, porções repetidas de Ingredientes ou Molhos consomem primeiro a quantidade incluída do tamanho e somente o que ultrapassar o limite vira adicional pago. Ex.: tamanho com 4 ingredientes inclusos + Bacon em 2 porções + Cebola + Milho = 4 porções, sem adicional; a 5ª porção passa a ser cobrada. Quando desativada, mantém a lógica anterior, em que cada repetição já é adicional pago. A regra foi aplicada ao pedido manual, pedido online e cálculo final no servidor. Também reorganiza a tela Consumo e custo: cards Unidade de medida, Quantidade usada por porção, Base do custo e Custo atual ficaram menores e centralizados; Base do custo e Custo atual ficam alinhados; a observação sobre Gr/KG ocupa a largura disponível e só quebra ao atingir a borda. Mantém as funções da R18.46.8 para quantidade em UN em Receita Fixa e porção repetida do mesmo item. Produção permanece inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.10/Sistema_Restaurante_Massas_R18.46.10_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "e8f4cc454034c570f635ceeddf2f21506d73b15885fb194c5b16d4edef1a6092",
+  "source_fingerprint": "23bf5d2d41b22ae94182d7903adbebb9575734a9b866d402d84207230608cf63",
+  "notes": "R18.46.10 Homologação — remove o campo inline “Nova unidade” da tela Consumo e custo e substitui por um botão “Cadastrar unidade”. O Administrador pode cadastrar unidades personalizadas reutilizáveis, como fatia, dose ou concha; elas ficam salvas e passam a aparecer nas listas de unidade principal e segunda medida. Mantém KG, Gr, ML e UN como unidades padrão. Também compacta e alinha as regras de cada etapa da montagem do prato: Cliente precisa escolher?, Permitir adicionais pagos?, Valor de cada excedente e demais cards da mesma faixa ficaram menores, alinhados à esquerda, com checkbox reduzido e mensagens auxiliares mais compactas. O ajuste vale para todas as etapas do editor de montagem. Mantém as regras de porções repetidas da R18.46.9. Worker 1.37.0 e Produção permanecem inalterados."
 }
