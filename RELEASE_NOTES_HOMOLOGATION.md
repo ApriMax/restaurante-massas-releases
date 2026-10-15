@@ -1,3 +1,3 @@
-# Homologação R18.46.14
+# Homologação R18.46.15
 
-R18.46.14 Homologacao: custo proprio por sabor e prato, peso diferenciado, calculo KG ou porcao, integracao com custos e relatorios. Publicar apenas Homologacao. Validação integral de regressão concluída com sucesso após ajustes de testes legados.
+R18.46.15 Homologação: campos Peso neste prato, Porção diferenciada e Custo individual agora são configurados em janelas compactas com Ativar, Editar e Remover. Mantido o custo por KG ou por porção e o resumo por sabor; sem mudanças no Worker nem na Produção.

@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.14",
-  "build": "R18.46.14-HOMOLOGACAO-SABORES-CUSTOS-PORCOES",
+  "release": "R18.46.15",
+  "build": "R18.46.15-HOMOLOGACAO-CONFIGURACOES-COMPACTAS",
   "schema": 32,
   "worker_version": "1.37.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.14/Sistema_Restaurante_Massas_R18.46.14_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "1720dac29f3c34ab0f0a6b10c76cf136fc99fd70d5fda5f00664f52d27777634",
-  "source_fingerprint": "3361310c5e212be44156692441ac75bbc4b7d6b068f40c7043ad1d48f703c1cf",
-  "notes": "R18.46.14 Homologacao: custo proprio por sabor e prato, peso diferenciado, calculo KG ou porcao, integracao com custos e relatorios. Publicar apenas Homologacao. Validação integral de regressão concluída com sucesso após ajustes de testes legados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.15/Sistema_Restaurante_Massas_R18.46.15_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "3e64436a19732bacb0b6c3b6f37da65f9db84710d982a1c528b91528fe12838f",
+  "source_fingerprint": "12c7e27bfc5ed493bdddc6544c2066d17658b2f0c3e357af4a51959978022b52",
+  "notes": "R18.46.15 Homologação: campos Peso neste prato, Porção diferenciada e Custo individual agora são configurados em janelas compactas com Ativar, Editar e Remover. Mantido o custo por KG ou por porção e o resumo por sabor; sem mudanças no Worker nem na Produção."
 }
