@@ -1,3 +1,3 @@
-# Homologação R18.46.13
+# Homologação R18.46.14
 
-R18.46.13 Homologação: refinamentos cumulativos pós-testes R18.46.12. Guia PDF A5 agora contém desenhos vetoriais coloridos explicando leitura do QR Code, cardápio no celular, escolha do prato e confirmação, com Visualizar/Baixar mantidos junto ao QR Presencial. Menu lateral com fontes, ícones e espaçamentos discretamente menores, mantendo largura. Em Configurações > Geral: subabas mais compactas alinhadas à esquerda, Dados do restaurante limitado em largura e dashboards separados para Impressora e Pagers. Menu de Configurações sem quebra de linha para Sobre / Atualização. Pedidos e Cardápio ainda menor e centralizado. Apps e Integrações: Mensagens do WhatsApp acima de Pedidos Online e sincronização. Bordas de dashboards/grupos com contraste um pouco maior. Preserva todas as correções da R18.46.12. Somente Homologação; Worker e Produção não alterados.
+R18.46.14 Homologacao: custo proprio por sabor e prato, peso diferenciado, calculo KG ou porcao, integracao com custos e relatorios. Publicar apenas Homologacao. Validação integral de regressão concluída com sucesso após ajustes de testes legados.

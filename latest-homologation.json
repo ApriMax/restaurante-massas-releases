@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.13",
-  "build": "R18.46.13-HOMOLOGACAO-REFINOS-LAYOUT-GUIA-ILUSTRADO",
-  "schema": 31,
-  "worker_version": "1.37.1",
+  "release": "R18.46.14",
+  "build": "R18.46.14-HOMOLOGACAO-SABORES-CUSTOS-PORCOES",
+  "schema": 32,
+  "worker_version": "1.37.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.13/Sistema_Restaurante_Massas_R18.46.13_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "daea92ca00cb602eaac7db42b306a76a36c40c9558a2bedc548ff953c5763ebd",
-  "source_fingerprint": "302f3ade8d26b9af7865a30c5fea60fa794906c13a37bf8f0f088030474bd99a",
-  "notes": "R18.46.13 Homologação: refinamentos cumulativos pós-testes R18.46.12. Guia PDF A5 agora contém desenhos vetoriais coloridos explicando leitura do QR Code, cardápio no celular, escolha do prato e confirmação, com Visualizar/Baixar mantidos junto ao QR Presencial. Menu lateral com fontes, ícones e espaçamentos discretamente menores, mantendo largura. Em Configurações > Geral: subabas mais compactas alinhadas à esquerda, Dados do restaurante limitado em largura e dashboards separados para Impressora e Pagers. Menu de Configurações sem quebra de linha para Sobre / Atualização. Pedidos e Cardápio ainda menor e centralizado. Apps e Integrações: Mensagens do WhatsApp acima de Pedidos Online e sincronização. Bordas de dashboards/grupos com contraste um pouco maior. Preserva todas as correções da R18.46.12. Somente Homologação; Worker e Produção não alterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.14/Sistema_Restaurante_Massas_R18.46.14_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "1720dac29f3c34ab0f0a6b10c76cf136fc99fd70d5fda5f00664f52d27777634",
+  "source_fingerprint": "3361310c5e212be44156692441ac75bbc4b7d6b068f40c7043ad1d48f703c1cf",
+  "notes": "R18.46.14 Homologacao: custo proprio por sabor e prato, peso diferenciado, calculo KG ou porcao, integracao com custos e relatorios. Publicar apenas Homologacao. Validação integral de regressão concluída com sucesso após ajustes de testes legados."
 }
