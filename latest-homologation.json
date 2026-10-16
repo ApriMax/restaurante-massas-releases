@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.17",
-  "build": "R18.46.17-HOMOLOGACAO-UX-REPETICAO-CUSTOS",
+  "release": "R18.46.18",
+  "build": "R18.46.18-HOMOLOGACAO-AJUSTES-VISUAIS",
   "schema": 33,
   "worker_version": "1.38.1",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.17/Sistema_Restaurante_Massas_R18.46.17_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "5133f5a1e21bb0dda6aeaf7b0727e712fef28e82f9e69624e8d378a1b8281d34",
-  "source_fingerprint": "aff8152a927f15d6eb7a7131e4bd042519c453cad92ea38ccb272b31290d1d5a",
-  "notes": "R18.46.17 Homologação: Dados do prato mais compactos, Peso da porção e Und. peso; regras dos grupos alinhadas, títulos destacados; Sabores com controles menores e sem peso duplicado, custo individual e resumo compactos; no pedido manual desktop, controles − 1 + no próprio item, permissão de repetição por item para Molhos, Temperos, Sabores e outros grupos; custo estimado e lucro bruto com destaque. App online mantém o visual, com validação de repetição atualizada no Worker. Dados e Produção preservados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.18/Sistema_Restaurante_Massas_R18.46.18_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "51c5b6d57f5ec00749de8921a1b51e2f2309cac1c7e3e781b255899728a18f9c",
+  "source_fingerprint": "f55169fe8b76411a8b5709e6e478ddb29d94e2eb67478e9dad5486d04c58a3d6",
+  "notes": "R18.46.18 Homologação: controles de repetição − 1 + menores sem aumentar cards; custo estimado e lucro bruto em texto destacado; Consumo e custo com campos lado a lado e rótulos abreviados; dados do prato centralizados; sabores sem estouro de borda, resumo menor; regras de grupos compactas; Alertas operacionais abaixo de Pratos consumidos/Operação agora com botões Ver e X lado a lado; Configurações Pedidos e Cardápio e Formas de pagamento com entradas menores e títulos destacados. Sem mudanças em regras, custos, schema ou Worker; Produção preservada."
 }

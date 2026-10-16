@@ -1,3 +1,3 @@
-# Homologação R18.46.17
+# Homologação R18.46.18
 
-R18.46.17 Homologação: Dados do prato mais compactos, Peso da porção e Und. peso; regras dos grupos alinhadas, títulos destacados; Sabores com controles menores e sem peso duplicado, custo individual e resumo compactos; no pedido manual desktop, controles − 1 + no próprio item, permissão de repetição por item para Molhos, Temperos, Sabores e outros grupos; custo estimado e lucro bruto com destaque. App online mantém o visual, com validação de repetição atualizada no Worker. Dados e Produção preservados.
+R18.46.18 Homologação: controles de repetição − 1 + menores sem aumentar cards; custo estimado e lucro bruto em texto destacado; Consumo e custo com campos lado a lado e rótulos abreviados; dados do prato centralizados; sabores sem estouro de borda, resumo menor; regras de grupos compactas; Alertas operacionais abaixo de Pratos consumidos/Operação agora com botões Ver e X lado a lado; Configurações Pedidos e Cardápio e Formas de pagamento com entradas menores e títulos destacados. Sem mudanças em regras, custos, schema ou Worker; Produção preservada.
