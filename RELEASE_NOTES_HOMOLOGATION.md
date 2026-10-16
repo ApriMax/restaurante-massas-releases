@@ -1,3 +1,3 @@
-# Homologação R18.46.22
+# Homologação R18.46.23
 
-R18.46.22 Homologação: atualização automática agora executa o script PowerShell oculto sem janela preta do Windows Terminal; abertura do Sistema Macarrão usa apenas janela de aplicativo Edge e não abre Chrome como fallback. Preserva maximização e fechamento da janela anterior. Worker 1.38.2 permanece, schema 33 e Produção inalterados.
+R18.46.23 Homologação: botões rápidos alteram apenas a forma de pagamento do card ativo, inicialmente o primeiro; + Outra forma cria e ativa um novo card, preservando os demais valores. Card selecionado recebe destaque discreto. Supervisor e atualizador fecham apenas a janela real do Sistema Macarrão no Edge, por identificador Win32 (HWND), e a nova abre maximizada, sem encerrar outras janelas do navegador. Janela de atualização segue oculta. Worker 1.38.2 e schema 33 inalterados; Produção preservada.

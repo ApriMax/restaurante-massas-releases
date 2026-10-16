@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.22",
-  "build": "R18.46.22-HOMOLOGACAO-JANELA-UNICA",
+  "release": "R18.46.23",
+  "build": "R18.46.23-HOMOLOGACAO-PAGAMENTO-JANELAS",
   "schema": 33,
   "worker_version": "1.38.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.22/Sistema_Restaurante_Massas_R18.46.22_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "46b1ab78c7abf54af6c1c0d731a108aae4aa034326f2f19c00d7bf1baa39f9b4",
-  "source_fingerprint": "86e56a9fb408ef6eb23c2ead42143be0889b26f90c8333ea8619b50d2bac7cde",
-  "notes": "R18.46.22 Homologação: atualização automática agora executa o script PowerShell oculto sem janela preta do Windows Terminal; abertura do Sistema Macarrão usa apenas janela de aplicativo Edge e não abre Chrome como fallback. Preserva maximização e fechamento da janela anterior. Worker 1.38.2 permanece, schema 33 e Produção inalterados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.23/Sistema_Restaurante_Massas_R18.46.23_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "600327a14aedc950b688124b1b85e6e051b53c9de9071c411b8412205d81c195",
+  "source_fingerprint": "7a2ad47a14529c5690dd311378297cd8a6d66c52972b16c396cadfa4dd92cb9e",
+  "notes": "R18.46.23 Homologação: botões rápidos alteram apenas a forma de pagamento do card ativo, inicialmente o primeiro; + Outra forma cria e ativa um novo card, preservando os demais valores. Card selecionado recebe destaque discreto. Supervisor e atualizador fecham apenas a janela real do Sistema Macarrão no Edge, por identificador Win32 (HWND), e a nova abre maximizada, sem encerrar outras janelas do navegador. Janela de atualização segue oculta. Worker 1.38.2 e schema 33 inalterados; Produção preservada."
 }
