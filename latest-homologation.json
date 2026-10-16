@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.18",
-  "build": "R18.46.18-HOMOLOGACAO-AJUSTES-VISUAIS",
+  "release": "R18.46.19",
+  "build": "R18.46.19-HOMOLOGACAO-LISTAS-SUSPENSAS",
   "schema": 33,
   "worker_version": "1.38.1",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.18/Sistema_Restaurante_Massas_R18.46.18_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "747aa231e2ddfbab28cf7f75ed10a217a8fe36e97cb7428218a935c980152219",
-  "source_fingerprint": "b888670306c3aad5a7879aa7463c740579c1ae7a75afa2261bd1d2c1504568db",
-  "notes": "R18.46.18 Homologação: controles de repetição − 1 + menores sem aumentar cards; custo estimado e lucro bruto em texto destacado; Consumo e custo com campos lado a lado e rótulos abreviados; dados do prato centralizados; sabores sem estouro de borda, resumo menor; regras de grupos compactas; Alertas operacionais abaixo de Pratos consumidos/Operação agora com botões Ver e X lado a lado; Configurações Pedidos e Cardápio e Formas de pagamento com entradas menores e títulos destacados. Sem mudanças em regras, custos, schema ou Worker; Produção preservada. Botões de cadastro preservam a descrição completa para acessibilidade e testes legados."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.19/Sistema_Restaurante_Massas_R18.46.19_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "53e1ccf2c4657ab2bbb8209bcc59be7c09bd01bf226e0848bc59752d99143f05",
+  "source_fingerprint": "d973a02f494e96d4aba0635a2a0a517234627671bc774745c4a9e2a5354baf0b",
+  "notes": "R18.46.19 Homologação: correção geral das listas suspensas do sistema desktop após vídeo demonstrando popup nativo do Edge em branco no primeiro clique. Seletores passam a oferecer lista visível em HTML, clicável de imediato, com suporte a teclado, deslocamento e opções desabilitadas, preservando os valores e eventos input/change/onchange existentes. Worker, banco, cálculos, layout do App online e Produção inalterados."
 }

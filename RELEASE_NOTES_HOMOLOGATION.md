@@ -1,3 +1,3 @@
-# Homologação R18.46.18
+# Homologação R18.46.19
 
-R18.46.18 Homologação: controles de repetição − 1 + menores sem aumentar cards; custo estimado e lucro bruto em texto destacado; Consumo e custo com campos lado a lado e rótulos abreviados; dados do prato centralizados; sabores sem estouro de borda, resumo menor; regras de grupos compactas; Alertas operacionais abaixo de Pratos consumidos/Operação agora com botões Ver e X lado a lado; Configurações Pedidos e Cardápio e Formas de pagamento com entradas menores e títulos destacados. Sem mudanças em regras, custos, schema ou Worker; Produção preservada. Botões de cadastro preservam a descrição completa para acessibilidade e testes legados.
+R18.46.19 Homologação: correção geral das listas suspensas do sistema desktop após vídeo demonstrando popup nativo do Edge em branco no primeiro clique. Seletores passam a oferecer lista visível em HTML, clicável de imediato, com suporte a teclado, deslocamento e opções desabilitadas, preservando os valores e eventos input/change/onchange existentes. Worker, banco, cálculos, layout do App online e Produção inalterados.
