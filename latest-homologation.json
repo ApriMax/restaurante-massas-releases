@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.21",
-  "build": "R18.46.21-HOMOLOGACAO-REPETICAO-ATUALIZADOR",
+  "release": "R18.46.22",
+  "build": "R18.46.22-HOMOLOGACAO-JANELA-UNICA",
   "schema": 33,
   "worker_version": "1.38.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.21/Sistema_Restaurante_Massas_R18.46.21_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "d23cb3f434ada4fda9f2b83897dfeb944652b6ed985fce5fd1d3de8f0aef7b83",
-  "source_fingerprint": "2fb351599e9678dd775b4cde866f73a9adeeffb681e480b695b776d24596a57d",
-  "notes": "R18.46.21: corrigir seleção de forma ao inserir pagamento dividido (linha em branco até escolher, botões rápidos preenchem sem substituir cards anteriores). Módulo 'Permitir repetir ingredientes e molhos': desmarcado oculta os controles de repetição no desktop e no online, desativa adição de porções extras e recusa repetições na API e Worker; marcado respeita limites e adicionais. Atualizador fecha janela antiga, encerra os processos da instalação, reinicia e maximiza a nova janela. Logo oficial preservada; schema 33. Somente Homologação. Após validação completa, também foi garantida a maximização quando o servidor já estiver aberto."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.22/Sistema_Restaurante_Massas_R18.46.22_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "46b1ab78c7abf54af6c1c0d731a108aae4aa034326f2f19c00d7bf1baa39f9b4",
+  "source_fingerprint": "86e56a9fb408ef6eb23c2ead42143be0889b26f90c8333ea8619b50d2bac7cde",
+  "notes": "R18.46.22 Homologação: atualização automática agora executa o script PowerShell oculto sem janela preta do Windows Terminal; abertura do Sistema Macarrão usa apenas janela de aplicativo Edge e não abre Chrome como fallback. Preserva maximização e fechamento da janela anterior. Worker 1.38.2 permanece, schema 33 e Produção inalterados."
 }

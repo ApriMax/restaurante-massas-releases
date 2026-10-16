@@ -1,3 +1,3 @@
-# Homologação R18.46.21
+# Homologação R18.46.22
 
-R18.46.21: corrigir seleção de forma ao inserir pagamento dividido (linha em branco até escolher, botões rápidos preenchem sem substituir cards anteriores). Módulo 'Permitir repetir ingredientes e molhos': desmarcado oculta os controles de repetição no desktop e no online, desativa adição de porções extras e recusa repetições na API e Worker; marcado respeita limites e adicionais. Atualizador fecha janela antiga, encerra os processos da instalação, reinicia e maximiza a nova janela. Logo oficial preservada; schema 33. Somente Homologação. Após validação completa, também foi garantida a maximização quando o servidor já estiver aberto.
+R18.46.22 Homologação: atualização automática agora executa o script PowerShell oculto sem janela preta do Windows Terminal; abertura do Sistema Macarrão usa apenas janela de aplicativo Edge e não abre Chrome como fallback. Preserva maximização e fechamento da janela anterior. Worker 1.38.2 permanece, schema 33 e Produção inalterados.
