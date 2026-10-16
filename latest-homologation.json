@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.19",
-  "build": "R18.46.19-HOMOLOGACAO-LISTAS-SUSPENSAS",
+  "release": "R18.46.20",
+  "build": "R18.46.20-HOMOLOGACAO-PAGAMENTO-DIVIDIDO",
   "schema": 33,
   "worker_version": "1.38.1",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.19/Sistema_Restaurante_Massas_R18.46.19_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "4f18f0439f0f94012f435a60609e533c846479f898008e293c0829ab48ba6271",
-  "source_fingerprint": "d973a02f494e96d4aba0635a2a0a517234627671bc774745c4a9e2a5354baf0b",
-  "notes": "R18.46.19 Homologação: correção geral das listas suspensas do sistema desktop após vídeo demonstrando popup nativo do Edge em branco no primeiro clique. Seletores passam a oferecer lista visível em HTML, clicável de imediato, com suporte a teclado, deslocamento e opções desabilitadas, preservando os valores e eventos input/change/onchange existentes. Worker, banco, cálculos, layout do App online e Produção inalterados. Testes legados adaptados ao manifesto dinâmico e regressão da lista suspensa."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.20/Sistema_Restaurante_Massas_R18.46.20_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "4ce917f6f8ac49e063b82c79eb4595fe4526652b4cd7a1748040c6871e211b5e",
+  "source_fingerprint": "bb9ad2f991e7041a96054fa82d19a140fe4974df155b64bc5b0b820799c887fa",
+  "notes": "R18.46.20 Homologação: pagamento dividido preserva todos os cards ao escolher uma segunda ou terceira forma de pagamento; botões rápidos acrescentam método novo e sugerem saldo restante sem substituir valores existentes. Máscara de valores em centavos durante a digitação (5 → R$ 0,05 → R$ 0,50 → R$ 5,00 → R$ 50,00), atualização de totais somente após máscara e proteção contra formatação automática enquanto o campo está em foco. Identidade visual oficial do Macarrão do Chef incluída no pacote de instalação limpa. Sem alterações de Worker ou schema, Produção preservada. Validação automatizada do pagamento dividido e da máscara de centavos concluída após ajuste dos testes."
 }
