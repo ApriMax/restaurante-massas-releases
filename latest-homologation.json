@@ -7,7 +7,7 @@
   "worker_version": "1.38.2",
   "mandatory": false,
   "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.23/Sistema_Restaurante_Massas_R18.46.23_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "600327a14aedc950b688124b1b85e6e051b53c9de9071c411b8412205d81c195",
+  "sha256": "d28c4f14a9a037bef59303a8eda118c1de61862b1b9f181ea8279b1eeda8e792",
   "source_fingerprint": "7a2ad47a14529c5690dd311378297cd8a6d66c52972b16c396cadfa4dd92cb9e",
-  "notes": "R18.46.23 Homologação: botões rápidos alteram apenas a forma de pagamento do card ativo, inicialmente o primeiro; + Outra forma cria e ativa um novo card, preservando os demais valores. Card selecionado recebe destaque discreto. Supervisor e atualizador fecham apenas a janela real do Sistema Macarrão no Edge, por identificador Win32 (HWND), e a nova abre maximizada, sem encerrar outras janelas do navegador. Janela de atualização segue oculta. Worker 1.38.2 e schema 33 inalterados; Produção preservada."
+  "notes": "R18.46.23 Homologação: botões rápidos alteram apenas a forma de pagamento do card ativo, inicialmente o primeiro; + Outra forma cria e ativa um novo card, preservando os demais valores. Card selecionado recebe destaque discreto. Supervisor e atualizador fecham apenas a janela real do Sistema Macarrão no Edge, por identificador Win32 (HWND), e a nova abre maximizada, sem encerrar outras janelas do navegador. Janela de atualização segue oculta. Worker 1.38.2 e schema 33 inalterados; Produção preservada. Atualizador escrito em UTF-8 com BOM para identificação confiável da janela no Windows PowerShell 5.1."
 }
