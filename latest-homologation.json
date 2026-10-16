@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.20",
-  "build": "R18.46.20-HOMOLOGACAO-PAGAMENTO-DIVIDIDO",
+  "release": "R18.46.21",
+  "build": "R18.46.21-HOMOLOGACAO-REPETICAO-ATUALIZADOR",
   "schema": 33,
-  "worker_version": "1.38.1",
+  "worker_version": "1.38.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.20/Sistema_Restaurante_Massas_R18.46.20_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "4ce917f6f8ac49e063b82c79eb4595fe4526652b4cd7a1748040c6871e211b5e",
-  "source_fingerprint": "bb9ad2f991e7041a96054fa82d19a140fe4974df155b64bc5b0b820799c887fa",
-  "notes": "R18.46.20 Homologação: pagamento dividido preserva todos os cards ao escolher uma segunda ou terceira forma de pagamento; botões rápidos acrescentam método novo e sugerem saldo restante sem substituir valores existentes. Máscara de valores em centavos durante a digitação (5 → R$ 0,05 → R$ 0,50 → R$ 5,00 → R$ 50,00), atualização de totais somente após máscara e proteção contra formatação automática enquanto o campo está em foco. Identidade visual oficial do Macarrão do Chef incluída no pacote de instalação limpa. Sem alterações de Worker ou schema, Produção preservada. Validação automatizada do pagamento dividido e da máscara de centavos concluída após ajuste dos testes."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.21/Sistema_Restaurante_Massas_R18.46.21_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "d23cb3f434ada4fda9f2b83897dfeb944652b6ed985fce5fd1d3de8f0aef7b83",
+  "source_fingerprint": "2fb351599e9678dd775b4cde866f73a9adeeffb681e480b695b776d24596a57d",
+  "notes": "R18.46.21: corrigir seleção de forma ao inserir pagamento dividido (linha em branco até escolher, botões rápidos preenchem sem substituir cards anteriores). Módulo 'Permitir repetir ingredientes e molhos': desmarcado oculta os controles de repetição no desktop e no online, desativa adição de porções extras e recusa repetições na API e Worker; marcado respeita limites e adicionais. Atualizador fecha janela antiga, encerra os processos da instalação, reinicia e maximiza a nova janela. Logo oficial preservada; schema 33. Somente Homologação. Após validação completa, também foi garantida a maximização quando o servidor já estiver aberto."
 }
