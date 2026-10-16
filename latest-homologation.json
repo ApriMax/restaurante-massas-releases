@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.16",
-  "build": "R18.46.16-HOMOLOGACAO-REGRAS-COMBINADAS-LIMITES-DINAMICOS",
+  "release": "R18.46.17",
+  "build": "R18.46.17-HOMOLOGACAO-UX-REPETICAO-CUSTOS",
   "schema": 33,
-  "worker_version": "1.38.0",
+  "worker_version": "1.38.1",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.16/Sistema_Restaurante_Massas_R18.46.16_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "0d7a9b13daffe1930d6c35fa466a89df414f2ffa0d45280e8714a74980d68523",
-  "source_fingerprint": "bb88d43bf89f4bead433c0824f63ad1b387aa8fb0a70d147767a0b849a550807",
-  "notes": "R18.46.16 Homologação: criar e editar grupos existentes com regras independentes de Tamanhos e Sabores (ambas podem ser ativadas). Cada tamanho aceita limites configuráveis para qualquer grupo do prato, inclusive Temperos, Recheios e grupos futuros, com permissão de excedentes por grupo e validação no pedido local e online. Preserva cadastros, opções, custos e limites legados. Atualiza somente Worker e D1 de Homologação; Produção inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.17/Sistema_Restaurante_Massas_R18.46.17_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "5133f5a1e21bb0dda6aeaf7b0727e712fef28e82f9e69624e8d378a1b8281d34",
+  "source_fingerprint": "aff8152a927f15d6eb7a7131e4bd042519c453cad92ea38ccb272b31290d1d5a",
+  "notes": "R18.46.17 Homologação: Dados do prato mais compactos, Peso da porção e Und. peso; regras dos grupos alinhadas, títulos destacados; Sabores com controles menores e sem peso duplicado, custo individual e resumo compactos; no pedido manual desktop, controles − 1 + no próprio item, permissão de repetição por item para Molhos, Temperos, Sabores e outros grupos; custo estimado e lucro bruto com destaque. App online mantém o visual, com validação de repetição atualizada no Worker. Dados e Produção preservados."
 }
