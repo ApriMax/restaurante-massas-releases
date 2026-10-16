@@ -7,7 +7,7 @@
   "worker_version": "1.38.1",
   "mandatory": false,
   "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.19/Sistema_Restaurante_Massas_R18.46.19_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "53e1ccf2c4657ab2bbb8209bcc59be7c09bd01bf226e0848bc59752d99143f05",
+  "sha256": "4f18f0439f0f94012f435a60609e533c846479f898008e293c0829ab48ba6271",
   "source_fingerprint": "d973a02f494e96d4aba0635a2a0a517234627671bc774745c4a9e2a5354baf0b",
-  "notes": "R18.46.19 Homologação: correção geral das listas suspensas do sistema desktop após vídeo demonstrando popup nativo do Edge em branco no primeiro clique. Seletores passam a oferecer lista visível em HTML, clicável de imediato, com suporte a teclado, deslocamento e opções desabilitadas, preservando os valores e eventos input/change/onchange existentes. Worker, banco, cálculos, layout do App online e Produção inalterados."
+  "notes": "R18.46.19 Homologação: correção geral das listas suspensas do sistema desktop após vídeo demonstrando popup nativo do Edge em branco no primeiro clique. Seletores passam a oferecer lista visível em HTML, clicável de imediato, com suporte a teclado, deslocamento e opções desabilitadas, preservando os valores e eventos input/change/onchange existentes. Worker, banco, cálculos, layout do App online e Produção inalterados. Testes legados adaptados ao manifesto dinâmico e regressão da lista suspensa."
 }
