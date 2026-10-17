@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.23",
-  "build": "R18.46.23-HOMOLOGACAO-PAGAMENTO-JANELAS",
+  "release": "R18.46.24",
+  "build": "R18.46.24-HOMOLOGACAO-DESEMPENHO-PEDIDOS",
   "schema": 33,
   "worker_version": "1.38.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.23/Sistema_Restaurante_Massas_R18.46.23_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "d28c4f14a9a037bef59303a8eda118c1de61862b1b9f181ea8279b1eeda8e792",
-  "source_fingerprint": "7a2ad47a14529c5690dd311378297cd8a6d66c52972b16c396cadfa4dd92cb9e",
-  "notes": "R18.46.23 Homologação: botões rápidos alteram apenas a forma de pagamento do card ativo, inicialmente o primeiro; + Outra forma cria e ativa um novo card, preservando os demais valores. Card selecionado recebe destaque discreto. Supervisor e atualizador fecham apenas a janela real do Sistema Macarrão no Edge, por identificador Win32 (HWND), e a nova abre maximizada, sem encerrar outras janelas do navegador. Janela de atualização segue oculta. Worker 1.38.2 e schema 33 inalterados; Produção preservada. Atualizador escrito em UTF-8 com BOM para identificação confiável da janela no Windows PowerShell 5.1."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.24/Sistema_Restaurante_Massas_R18.46.24_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "b59322c07e92600c2b4fc4d658c946167ccc99a324984f5dc414585226bc69f0",
+  "source_fingerprint": "f8aaf7c37aceafc7f9878d63e22d999ce5a8357da68a4324d67c3b8b0b168f8a",
+  "notes": "R18.46.24 Homologação: otimização do polling administrativo de dashboard e pedidos, evitando consultas sobrepostas; atualização manual aguarda execução real; pausa de polling de pedidos e dashboard com janela oculta; lista de pedidos só redesenhada quando muda; índice SQLite em order_items(order_id) para acelerar consultas. Mantidas as regras de pagamento, permissões e abertura da janela da R18.46.23. Worker 1.38.2 inalterado; deploy_worker=false. Publicação exclusiva para Homologação; Produção preservada. Validações do instalador ajustadas: APP_RELEASE coerente com o manifesto, teste de centavos usa o formatador monetário real, e regressões da R18.46.23 continuam válidas em versões posteriores."
 }
