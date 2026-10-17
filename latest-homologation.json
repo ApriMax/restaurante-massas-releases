@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.25",
-  "build": "R18.46.25-HOMOLOGACAO-CALENDARIO-CONSUMO-UI",
+  "release": "R18.46.26",
+  "build": "R18.46.26-HOMOLOGACAO-CALENDARIO-ALINHAMENTOS",
   "schema": 33,
   "worker_version": "1.38.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.25/Sistema_Restaurante_Massas_R18.46.25_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "5813872867b7e2b641cc8378860550d2de97802a56aacc878d80faa8374d4cc5",
-  "source_fingerprint": "1f25ebed55de4182ff36ca6371c66fced07f1cd57e1144b4f1b607445fe3044d",
-  "notes": "R18.46.25 Homologação: consumo e custo com Qtd. por porção antes de Und. medida e Segunda medida oculta até marcação; Calendário e exceções reorganizado, evitando campos fora dos cards; Feriados divididos em fechamento automático, datas personalizadas e consulta; UF dos feriados lida exclusivamente de Dados do restaurante (também no Worker quando sincronizado); cadastro do restaurante compacto com Cidade e UF visíveis e dados complementares preservados. Mantidas permissões, pagamentos, janela e otimizações da R18.46.24. Schema 33 e Worker 1.38.2 inalterados; deploy_worker=false; Produção preservada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.26/Sistema_Restaurante_Massas_R18.46.26_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "bc3a4b53d7088565e94242527c0c50de3db5f77d5f16333d9e1467b496574f49",
+  "source_fingerprint": "68cbf384c75bf715c55cba3364028f07f188c333381e7742a2610b46d036fed1",
+  "notes": "R18.46.26 Homologação: no Calendário e exceções, Férias agora fica diretamente abaixo de Abertura excepcional na coluna esquerda; Feriados fica na direita; caixa de seleção de fechamento automático alinhada ao texto; botões Salvar abertura excepcional e Remover desta data alinhados à direita; Programar férias alinhado aos dois campos de data; calendário sempre reabre no topo. Preservadas as alterações de consumo, feriados, UF do restaurante e otimizações da R18.46.25. Schema 33 e Worker 1.38.2 inalterados, deploy_worker=false; Produção preservada."
 }
