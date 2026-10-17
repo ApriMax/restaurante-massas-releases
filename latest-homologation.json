@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.30",
-  "build": "R18.46.30-HOMOLOGACAO-CUSTO-MANUAL-PRIORITARIO",
+  "release": "R18.46.31",
+  "build": "R18.46.31-HOMOLOGACAO-CUSTOS-COMPARTILHADOS",
   "schema": 34,
   "worker_version": "1.38.4",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.30/Sistema_Restaurante_Massas_R18.46.30_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "b986670113351bcb753ea7acc04157698391e2afd627f1de5dfd076fe1063396",
-  "source_fingerprint": "0993fc8aa1515e53dd6614846f8b57ce0d2f0ce153e4cd36984fd94008d5d9ff",
-  "notes": "R18.46.30 Homologação: custo manual do prato, quando ativado e informado, passa a ser a referência prioritária para pedidos, lucro e relatórios, mesmo com custos de ingredientes completos; prévia exibe CUSTO MANUAL. Ao desmarcar, volta ao cálculo dos insumos e respectivos fallback. Snapshot manual preservado para pedidos online. Validação impede salvar a opção marcada com valor zero. Schema 34 permanece; Worker 1.38.4 apenas em Homologação; Produção preservada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.31/Sistema_Restaurante_Massas_R18.46.31_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "0cf928595c6ffa77bb537d854815ec91a78441d5092d2d22f50ede78123123d8",
+  "source_fingerprint": "2e2a6da15553f9f546e7c072e520cb5c445b9d1b41b73a9a4031f279f46694f6",
+  "notes": "R18.46.31 Homologação: custos de matéria-prima compartilhados automaticamente entre diferentes grupos por nome equivalente e base compatível; porções individuais por grupo preservadas, última compra como custo vigente, histórico unificado e Consulta Custos sem duplicidades; autocomplete de novo item com seleção rápida, bloqueio de item duplicado no mesmo grupo e vinculação automática entre grupos. Sabores mantêm custos e consumos independentes; consumo soma os demais ingredientes equivalentes. Schema 34 e Worker 1.38.4 inalterados. Produção preservada."
 }

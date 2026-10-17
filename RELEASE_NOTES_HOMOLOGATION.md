@@ -1,3 +1,3 @@
-# Homologação R18.46.30
+# Homologação R18.46.31
 
-R18.46.30 Homologação: custo manual do prato, quando ativado e informado, passa a ser a referência prioritária para pedidos, lucro e relatórios, mesmo com custos de ingredientes completos; prévia exibe CUSTO MANUAL. Ao desmarcar, volta ao cálculo dos insumos e respectivos fallback. Snapshot manual preservado para pedidos online. Validação impede salvar a opção marcada com valor zero. Schema 34 permanece; Worker 1.38.4 apenas em Homologação; Produção preservada.
+R18.46.31 Homologação: custos de matéria-prima compartilhados automaticamente entre diferentes grupos por nome equivalente e base compatível; porções individuais por grupo preservadas, última compra como custo vigente, histórico unificado e Consulta Custos sem duplicidades; autocomplete de novo item com seleção rápida, bloqueio de item duplicado no mesmo grupo e vinculação automática entre grupos. Sabores mantêm custos e consumos independentes; consumo soma os demais ingredientes equivalentes. Schema 34 e Worker 1.38.4 inalterados. Produção preservada.
