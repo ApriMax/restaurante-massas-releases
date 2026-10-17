@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.24",
-  "build": "R18.46.24-HOMOLOGACAO-DESEMPENHO-PEDIDOS",
+  "release": "R18.46.25",
+  "build": "R18.46.25-HOMOLOGACAO-CALENDARIO-CONSUMO-UI",
   "schema": 33,
   "worker_version": "1.38.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.24/Sistema_Restaurante_Massas_R18.46.24_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "b59322c07e92600c2b4fc4d658c946167ccc99a324984f5dc414585226bc69f0",
-  "source_fingerprint": "f8aaf7c37aceafc7f9878d63e22d999ce5a8357da68a4324d67c3b8b0b168f8a",
-  "notes": "R18.46.24 Homologação: otimização do polling administrativo de dashboard e pedidos, evitando consultas sobrepostas; atualização manual aguarda execução real; pausa de polling de pedidos e dashboard com janela oculta; lista de pedidos só redesenhada quando muda; índice SQLite em order_items(order_id) para acelerar consultas. Mantidas as regras de pagamento, permissões e abertura da janela da R18.46.23. Worker 1.38.2 inalterado; deploy_worker=false. Publicação exclusiva para Homologação; Produção preservada. Validações do instalador ajustadas: APP_RELEASE coerente com o manifesto, teste de centavos usa o formatador monetário real, e regressões da R18.46.23 continuam válidas em versões posteriores."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.25/Sistema_Restaurante_Massas_R18.46.25_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "5813872867b7e2b641cc8378860550d2de97802a56aacc878d80faa8374d4cc5",
+  "source_fingerprint": "1f25ebed55de4182ff36ca6371c66fced07f1cd57e1144b4f1b607445fe3044d",
+  "notes": "R18.46.25 Homologação: consumo e custo com Qtd. por porção antes de Und. medida e Segunda medida oculta até marcação; Calendário e exceções reorganizado, evitando campos fora dos cards; Feriados divididos em fechamento automático, datas personalizadas e consulta; UF dos feriados lida exclusivamente de Dados do restaurante (também no Worker quando sincronizado); cadastro do restaurante compacto com Cidade e UF visíveis e dados complementares preservados. Mantidas permissões, pagamentos, janela e otimizações da R18.46.24. Schema 33 e Worker 1.38.2 inalterados; deploy_worker=false; Produção preservada."
 }
