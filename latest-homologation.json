@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.26",
-  "build": "R18.46.26-HOMOLOGACAO-CALENDARIO-ALINHAMENTOS",
+  "release": "R18.46.27",
+  "build": "R18.46.27-HOMOLOGACAO-NAVEGADOR-ALTERNATIVO",
   "schema": 33,
   "worker_version": "1.38.2",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.26/Sistema_Restaurante_Massas_R18.46.26_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "bc3a4b53d7088565e94242527c0c50de3db5f77d5f16333d9e1467b496574f49",
-  "source_fingerprint": "68cbf384c75bf715c55cba3364028f07f188c333381e7742a2610b46d036fed1",
-  "notes": "R18.46.26 Homologação: no Calendário e exceções, Férias agora fica diretamente abaixo de Abertura excepcional na coluna esquerda; Feriados fica na direita; caixa de seleção de fechamento automático alinhada ao texto; botões Salvar abertura excepcional e Remover desta data alinhados à direita; Programar férias alinhado aos dois campos de data; calendário sempre reabre no topo. Preservadas as alterações de consumo, feriados, UF do restaurante e otimizações da R18.46.25. Schema 33 e Worker 1.38.2 inalterados, deploy_worker=false; Produção preservada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.27/Sistema_Restaurante_Massas_R18.46.27_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "fc40b38381edbe22f7c3573d74834656a93cc70ad33f6cf86adc4eef07eddfd5",
+  "source_fingerprint": "5b840aa7fecfcbaecc62f8087553895228e9d9275e216932e81e45d077b673c3",
+  "notes": "R18.46.27 Homologação: janela de gestão abre automaticamente pelo ícone no Microsoft Edge; caso não esteja disponível, abre no Google Chrome em modo aplicativo e solicita maximização; se ambos não estiverem disponíveis, usa o navegador padrão do Windows sem digitar endereço. Ao atualizar, fecha apenas janelas de gestão Edge/Chrome para evitar duplicidade, sem encerrar abas comuns. Se não houver navegador registrado, exibe aviso. Inclui testes automáticos de prioridade, fallback e janelas únicas. Mantidas as regras de pagamentos, pedidos, calendário e custos das versões anteriores. Schema 33 e Worker 1.38.2 inalterados; deploy_worker=false. Produção preservada."
 }
