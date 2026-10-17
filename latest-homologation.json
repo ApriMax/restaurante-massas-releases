@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.29",
-  "build": "R18.46.29-HOMOLOGACAO-AJUSTE-BOTOES",
+  "release": "R18.46.30",
+  "build": "R18.46.30-HOMOLOGACAO-CUSTO-MANUAL-PRIORITARIO",
   "schema": 34,
-  "worker_version": "1.38.3",
+  "worker_version": "1.38.4",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.29/Sistema_Restaurante_Massas_R18.46.29_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "254195f8ddc246ae77ec53ff9aa0d9f112ea1cc405c31fa9bb01deb4010c9f13",
-  "source_fingerprint": "9a52ec1e7454f41c2c65aefe16fc482b8d75f6367b174f57187d4c38d1003617",
-  "notes": "R18.46.29 Homologação: inversão dos botões Excluir pedido finalizado e Atualizar tempo de preparo na Visão Geral. Excluir pedido finalizado passa para a barra superior; Atualizar tempo de preparo passa para Funcionamento e turnos com dimensões, tipografia e indicador de minutos proporcionais aos demais controles. Funções existentes preservadas; schema 34 e Worker 1.38.3 inalterados; Produção preservada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.30/Sistema_Restaurante_Massas_R18.46.30_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "b986670113351bcb753ea7acc04157698391e2afd627f1de5dfd076fe1063396",
+  "source_fingerprint": "0993fc8aa1515e53dd6614846f8b57ce0d2f0ce153e4cd36984fd94008d5d9ff",
+  "notes": "R18.46.30 Homologação: custo manual do prato, quando ativado e informado, passa a ser a referência prioritária para pedidos, lucro e relatórios, mesmo com custos de ingredientes completos; prévia exibe CUSTO MANUAL. Ao desmarcar, volta ao cálculo dos insumos e respectivos fallback. Snapshot manual preservado para pedidos online. Validação impede salvar a opção marcada com valor zero. Schema 34 permanece; Worker 1.38.4 apenas em Homologação; Produção preservada."
 }
