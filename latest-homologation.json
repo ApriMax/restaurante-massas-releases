@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.31",
-  "build": "R18.46.31-HOMOLOGACAO-CUSTOS-COMPARTILHADOS",
+  "release": "R18.46.32",
+  "build": "R18.46.32-HOMOLOGACAO-ASSISTENTE-IA-ADMIN",
   "schema": 34,
   "worker_version": "1.38.4",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.31/Sistema_Restaurante_Massas_R18.46.31_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "0cf928595c6ffa77bb537d854815ec91a78441d5092d2d22f50ede78123123d8",
-  "source_fingerprint": "2e2a6da15553f9f546e7c072e520cb5c445b9d1b41b73a9a4031f279f46694f6",
-  "notes": "R18.46.31 Homologação: custos de matéria-prima compartilhados automaticamente entre diferentes grupos por nome equivalente e base compatível; porções individuais por grupo preservadas, última compra como custo vigente, histórico unificado e Consulta Custos sem duplicidades; autocomplete de novo item com seleção rápida, bloqueio de item duplicado no mesmo grupo e vinculação automática entre grupos. Sabores mantêm custos e consumos independentes; consumo soma os demais ingredientes equivalentes. Schema 34 e Worker 1.38.4 inalterados. Produção preservada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.32/Sistema_Restaurante_Massas_R18.46.32_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "3ee9bc4e3c404c2953526340b05d8970cd2744542647a483b21ad1c310ea9c85",
+  "source_fingerprint": "e8ec5f3ac5e273619034e0bccf083f4ceb1d70e5957f2e4fa0137dd0fcb8b91d",
+  "notes": "R18.46.32 Homologação: primeira etapa do Assistente IA exclusiva do Administrador, com acesso pela Visão Geral. IA apenas classifica comandos e não dispõe de ferramentas para alterar código, arquivos, SQL ou atualizações. Consultas permitidas: faturamento do dia, consulta e proposta de alteração de custo vigente de ingredientes; alterações somente após confirmação e com auditoria, token de sessão e verificação do valor anterior. Chave de API configurada fora do código pelo ambiente local, sem expor ao navegador; sem chave o assistente permanece desativado. Worker 1.38.4 e schema 34 preservados. Produção inalterada."
 }
