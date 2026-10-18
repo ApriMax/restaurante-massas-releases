@@ -1,3 +1,3 @@
-# Homologação R18.46.35
+# Homologação R18.46.36
 
-R18.46.35 HOMOLOGAÇÃO: painel de créditos da Maritaca reduzido, slim e alinhado à direita no Assistente IA; status distingue chave salva de modelo validado em chamada real; consumo mensal exibido somente quando calculável a partir de totais ou gastos diários oficiais com cobertura do período. Ausência de dados oficiais continua como —. Nenhuma média/estimativa; Worker 1.38.5, D1 e Produção preservados; teste real do consumo mensal e layouts pendente no notebook.
+R18.46.36 HOMOLOGAÇÃO — IA Maritaca passa a preparar rascunhos de pratos de Receita Fixa com preço base explícito e ingredientes/grupos já cadastrados. Consulta valida cada item e detecta duplicatas e ambiguidades. Criação exige confirmação do Administrador e salva o novo prato DESATIVADO e invisível no online, para revisão manual de pesos, custos e regras antes da ativação. Itens ou grupos inexistentes, preços ausentes e tamanhos complexos continuam exigindo cadastro manual, sem informações inventadas. Worker 1.38.5 e D1 sem mudanças. Produção não alterada.

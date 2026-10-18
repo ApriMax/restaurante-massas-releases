@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.35",
-  "build": "R18.46.35-HOMOLOGACAO-IA-SLIM-CONSUMO",
+  "release": "R18.46.36",
+  "build": "R18.46.36-HOMOLOGACAO-IA-RASCUNHO-PRATOS",
   "schema": 34,
   "worker_version": "1.38.5",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.35/Sistema_Restaurante_Massas_R18.46.35_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "d499b3725ea6656eee9f397ed598a3b97c5288bebcbbe7d1269950d6f9877aff",
-  "source_fingerprint": "f045e1ceb856fe066511b75d1f340d58b4e7da5cedd175ef024fbad5cda600fb",
-  "notes": "R18.46.35 HOMOLOGAÇÃO: painel de créditos da Maritaca reduzido, slim e alinhado à direita no Assistente IA; status distingue chave salva de modelo validado em chamada real; consumo mensal exibido somente quando calculável a partir de totais ou gastos diários oficiais com cobertura do período. Ausência de dados oficiais continua como —. Nenhuma média/estimativa; Worker 1.38.5, D1 e Produção preservados; teste real do consumo mensal e layouts pendente no notebook."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.36/Sistema_Restaurante_Massas_R18.46.36_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "fdef7cd2e8b8b44cd3eacf2941f6436c9e844f27177b4184fc65d94e758c6083",
+  "source_fingerprint": "8c484ba137282a56a8459786650b7ffb47f7733e22d64f7baf0b71fcbbe288af",
+  "notes": "R18.46.36 HOMOLOGAÇÃO — IA Maritaca passa a preparar rascunhos de pratos de Receita Fixa com preço base explícito e ingredientes/grupos já cadastrados. Consulta valida cada item e detecta duplicatas e ambiguidades. Criação exige confirmação do Administrador e salva o novo prato DESATIVADO e invisível no online, para revisão manual de pesos, custos e regras antes da ativação. Itens ou grupos inexistentes, preços ausentes e tamanhos complexos continuam exigindo cadastro manual, sem informações inventadas. Worker 1.38.5 e D1 sem mudanças. Produção não alterada."
 }
