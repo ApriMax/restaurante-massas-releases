@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.34",
-  "build": "R18.46.34-HOMOLOGACAO-IA-MARITACA",
+  "release": "R18.46.35",
+  "build": "R18.46.35-HOMOLOGACAO-IA-SLIM-CONSUMO",
   "schema": 34,
   "worker_version": "1.38.5",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.34/Sistema_Restaurante_Massas_R18.46.34_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "5d113169618a451484d3b27ebbeeb170a5d67219326aa3b64189cc89d8d27d2a",
-  "source_fingerprint": "7a89ae6d847afcfcfb398a8e7136491e441eb33189f0fefc68905e2fc094c1bf",
-  "notes": "R18.46.34 HOMOLOGAÇÃO: integração do Assistente IA à Maritaca Sabiá 4; configurações de chave individual criptografada no Windows em Apps e Integrações; card de saldo oficial (disponível quando a API confirmar os valores) e botão Recarregar. App Leitor de Pedidos oferece envio da mesma foto à IA do Sistema no Windows após duas leituras malsucedidas; Worker de homologação 1.38.5 (rota de resposta validada) transporta fila privada, sem receber a chave. Foto passa por OCR Maritaca no PC, resultados são validados contra o cardápio e exigem conferência antes de criar pedido. Recursos sujeitos a validação com conta Maritaca real e folders físicos; Produção não alterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.35/Sistema_Restaurante_Massas_R18.46.35_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "d499b3725ea6656eee9f397ed598a3b97c5288bebcbbe7d1269950d6f9877aff",
+  "source_fingerprint": "f045e1ceb856fe066511b75d1f340d58b4e7da5cedd175ef024fbad5cda600fb",
+  "notes": "R18.46.35 HOMOLOGAÇÃO: painel de créditos da Maritaca reduzido, slim e alinhado à direita no Assistente IA; status distingue chave salva de modelo validado em chamada real; consumo mensal exibido somente quando calculável a partir de totais ou gastos diários oficiais com cobertura do período. Ausência de dados oficiais continua como —. Nenhuma média/estimativa; Worker 1.38.5, D1 e Produção preservados; teste real do consumo mensal e layouts pendente no notebook."
 }
