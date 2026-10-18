@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.36",
-  "build": "R18.46.36-HOMOLOGACAO-IA-RASCUNHO-PRATOS",
-  "schema": 34,
+  "release": "R18.46.38",
+  "build": "R18.46.38-HOMOLOGACAO-FALTA-SABOR-PRATO",
+  "schema": 35,
   "worker_version": "1.38.5",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.36/Sistema_Restaurante_Massas_R18.46.36_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "fdef7cd2e8b8b44cd3eacf2941f6436c9e844f27177b4184fc65d94e758c6083",
-  "source_fingerprint": "8c484ba137282a56a8459786650b7ffb47f7733e22d64f7baf0b71fcbbe288af",
-  "notes": "R18.46.36 HOMOLOGAÇÃO — IA Maritaca passa a preparar rascunhos de pratos de Receita Fixa com preço base explícito e ingredientes/grupos já cadastrados. Consulta valida cada item e detecta duplicatas e ambiguidades. Criação exige confirmação do Administrador e salva o novo prato DESATIVADO e invisível no online, para revisão manual de pesos, custos e regras antes da ativação. Itens ou grupos inexistentes, preços ausentes e tamanhos complexos continuam exigindo cadastro manual, sem informações inventadas. Worker 1.38.5 e D1 sem mudanças. Produção não alterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.38/Sistema_Restaurante_Massas_R18.46.38_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "25c56bbb5db02db20babb1f386c79187bba7de6e7fc439e1d0e9240f0ffbef9b",
+  "source_fingerprint": "514f87172196b5aaa3f48a23a0d7a50aa2669a511095eb8a521fce40b08160c6",
+  "notes": "R18.46.38 HOMOLOGAÇÃO — publicação autorizada após testes: Itens em Falta com filtro único Todos / Grupo / Prato. Grupo exclui Sabores, Prato lista Rondelli — Carne, Sofiolli — Carne etc.; falta de sabor isolada por prato+opção. Bloqueio vale no cardápio online, na seleção e na validação do pedido no PC. Migração preserva antigas faltas de sabores convertendo-as por prato. Inclui também o ajuste visual pendente da IA: painel de créditos até 386px à direita e mensagens de status/orientação no rodapé, sem mudar largura do botão Fechar. Worker 1.38.5 sem republicação; Produção não alterada."
 }
