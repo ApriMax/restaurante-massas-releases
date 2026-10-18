@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.39",
-  "build": "R18.46.39-HOMOLOGACAO-BUSCA-FALTAS-PROGRESSO",
+  "release": "R18.46.40",
+  "build": "R18.46.40-HOMOLOGACAO-FALTAS-MANUAL-EDITOR",
   "schema": 35,
-  "worker_version": "1.38.5",
+  "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.39/Sistema_Restaurante_Massas_R18.46.39_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "f983871cec600b8f6f7b4b27d9c1cd5388910997dbee840e0a82432bd8c4c8e0",
-  "source_fingerprint": "81675fa11b0822b819364b16d3f7accecd003d8cbbcefe218ac35c1f10086607",
-  "notes": "R18.46.39 HOMOLOGAÇÃO — Campo Pesquisar item ou sabor em Itens em falta: filtra enquanto digita com Todos / Grupo / Prato, mantendo indisponibilidade específica por prato+sabor. Botões exibem Salvando e resultado da alteração com confirmação de sincronização online ou aviso de pendência/erro. Atualização: mensagem de preparação no navegador e janela independente do Windows informando fechamento, backup, cópia, validação e reinício; erros apresentados em tela. Schema 35 e Worker 1.38.5 mantidos, sem republicar Worker; Produção não alterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.40/Sistema_Restaurante_Massas_R18.46.40_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "21374d7d10f50f7a78d7c8567bf19fe3172e5467c140f2f4ce23fa236a975f69",
+  "source_fingerprint": "e6f50aee10a0ce1f34991017b94dc1778f41888b3576b695de960faeaa1ea79e",
+  "notes": "R18.46.40 HOMOLOGAÇÃO — Pedido manual passa a indicar e impedir seleção de ingredientes e sabores marcados em falta, mantendo disponibilidade isolada por prato+sabor, inclusive Rondeli/Sofiolli. Ajustes no editor de pratos: ocultar Permitir repetir item se módulo opcional desligado sem apagar configuração previamente salva, mostrar porção padrão cadastrada no card em texto discreto, destacar Nome do prato e compactar Definir valor adicional/Peso neste prato conforme Custo individual sem mudar dimensões dos cards. Itens em falta: não exibir caixa verde de sucesso desnecessária, manter avisos de erro e falha de sincronização. Pedido online: fonte de valores dos pratos maior (11 para 14px), sem alterar preços. Worker 1.38.6 publicado EXCLUSIVAMENTE no ambiente de HOMOLOGAÇÃO, schema 35 mantido; PRODUÇÃO inalterada."
 }
