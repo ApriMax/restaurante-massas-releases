@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.40",
-  "build": "R18.46.40-HOMOLOGACAO-FALTAS-MANUAL-EDITOR",
+  "release": "R18.46.41",
+  "build": "R18.46.41-HOMOLOGACAO-IA-VOZ-CUMULATIVA",
   "schema": 35,
   "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.40/Sistema_Restaurante_Massas_R18.46.40_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "21374d7d10f50f7a78d7c8567bf19fe3172e5467c140f2f4ce23fa236a975f69",
-  "source_fingerprint": "e6f50aee10a0ce1f34991017b94dc1778f41888b3576b695de960faeaa1ea79e",
-  "notes": "R18.46.40 HOMOLOGAÇÃO — Pedido manual passa a indicar e impedir seleção de ingredientes e sabores marcados em falta, mantendo disponibilidade isolada por prato+sabor, inclusive Rondeli/Sofiolli. Ajustes no editor de pratos: ocultar Permitir repetir item se módulo opcional desligado sem apagar configuração previamente salva, mostrar porção padrão cadastrada no card em texto discreto, destacar Nome do prato e compactar Definir valor adicional/Peso neste prato conforme Custo individual sem mudar dimensões dos cards. Itens em falta: não exibir caixa verde de sucesso desnecessária, manter avisos de erro e falha de sincronização. Pedido online: fonte de valores dos pratos maior (11 para 14px), sem alterar preços. Worker 1.38.6 publicado EXCLUSIVAMENTE no ambiente de HOMOLOGAÇÃO, schema 35 mantido; PRODUÇÃO inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.41/Sistema_Restaurante_Massas_R18.46.41_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "771d5c62ede4e9bc29c1bbac2d0f483de65c429e83d3a36ac4daf749573770d4",
+  "source_fingerprint": "fcb564f0f0b32f3c4836ded3e113315392301689830280255beb66a99f46467b",
+  "notes": "R18.46.41 HOMOLOGAÇÃO CUMULATIVA — Inclui integralmente a R18.46.40 ainda não instalada: indisponibilidade por prato+sabor também no pedido manual, visualização do valor online maior, melhorias no editor de pratos (porção padrão, campos e botões compactos, repetição condicionada ao módulo), remoção da caixa verde de sucesso e janela de progresso da atualização. NOVO: Assistente IA do Administrador com comando digitado OU voz em português (pt-BR), botão Falar/Parar, reconhecimento de voz conforme suporte do navegador/Edge, transcrição editável no mesmo campo, revisão e envio manual obrigatório, cancelamento do microfone ao fechar, indicação de falhas e permissões de microfone. Nenhum áudio é armazenado pelo aplicativo, sem alterações de permissões ou da lógica de confirmação de ações da IA. Schema 35, Worker 1.38.6 já publicado em homologação na versão anterior — não republicar Worker. PRODUÇÃO inalterada."
 }
