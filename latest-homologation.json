@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.42",
-  "build": "R18.46.42-HOMOLOGACAO-IA-GUIADA-EXCLUSAO-UX",
-  "schema": 35,
+  "release": "R18.46.43",
+  "build": "R18.46.43-HOMOLOGACAO-IA-FLUXO-PERSISTENTE",
+  "schema": 36,
   "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.42/Sistema_Restaurante_Massas_R18.46.42_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "aa3afe6fda238416cf55d58b1cdd1e0a4c801334e9c304e766576bed9f7398ce",
-  "source_fingerprint": "9f1f5eff340f94f603804ebc9f2ae865911399b136418832c2e3a860fa9dc82b",
-  "notes": "R18.46.42 HOMOLOGAÇÃO CUMULATIVA — Mantém tudo de R18.46.41 aprovado nos testes. Ajustes de interface: três ações de itens/sabores mais alinhadas, botões Falar/Enviar ligeiramente menores. Maritaca: quando a API oficial não informa gasto mensal, exibe 'Não informado', sem estimar por diferença de saldo; o valor continuará indisponível até ser fornecido oficialmente. IA do Administrador: fluxo guiado por voz ou texto para criar rascunho inativo de receita fixa ou montável básico, perguntando tipo do prato, porções cadastradas/diferenciadas, peso independente da massa/base e limites mínimos/máximos/incluídos por grupo no montável. Não suporta configuração automática complexa de tamanhos, sabores específicos nem excedentes pagos — revisar manualmente o Cardápio antes de ativar. Exclusão de prato via IA por nome exato com confirmação independente: remove cadastro sem histórico, ou desativa e oculta online quando há histórico para preservar pedidos/relatórios. Cancela criação sem gravar; autenticação Admin e auditoria. Schema 35 e Worker 1.38.6 inalterados; Produção não modificada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.43/Sistema_Restaurante_Massas_R18.46.43_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "7f956ac8da4fe811f66f39febad7867aab8883e92bc3e2bd2bd12d80a048d263",
+  "source_fingerprint": "16bb7e6097b4ecfcaeb207e4acd3f8bfdf398c2795c636db230e23c330f860b1",
+  "notes": "R18.46.43 HOMOLOGAÇÃO CUMULATIVA — correção do assistente IA montável: respostas de quantidade (ex.: '1,2,2') não devem perder a montagem ativa e virar consulta genérica. Fluxo das perguntas do prato é armazenado temporariamente no SQLite local, vinculado à sessão do Administrador e renovado a cada resposta válida, para resistir a reinícios do servidor. Expiração após 30 minutos sem resposta; respostas numéricas sem fluxo retornam orientação clara. Criação continua sempre inativa e dependente de confirmação. Preserva integralmente as funções e ajustes de R18.46.42. Schema local 36 para tabela temporária de montagem IA. Worker homologação 1.38.6 sem republicação. Produção inalterada."
 }
