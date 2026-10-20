@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.41",
-  "build": "R18.46.41-HOMOLOGACAO-IA-VOZ-CUMULATIVA",
+  "release": "R18.46.42",
+  "build": "R18.46.42-HOMOLOGACAO-IA-GUIADA-EXCLUSAO-UX",
   "schema": 35,
   "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.41/Sistema_Restaurante_Massas_R18.46.41_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "771d5c62ede4e9bc29c1bbac2d0f483de65c429e83d3a36ac4daf749573770d4",
-  "source_fingerprint": "fcb564f0f0b32f3c4836ded3e113315392301689830280255beb66a99f46467b",
-  "notes": "R18.46.41 HOMOLOGAÇÃO CUMULATIVA — Inclui integralmente a R18.46.40 ainda não instalada: indisponibilidade por prato+sabor também no pedido manual, visualização do valor online maior, melhorias no editor de pratos (porção padrão, campos e botões compactos, repetição condicionada ao módulo), remoção da caixa verde de sucesso e janela de progresso da atualização. NOVO: Assistente IA do Administrador com comando digitado OU voz em português (pt-BR), botão Falar/Parar, reconhecimento de voz conforme suporte do navegador/Edge, transcrição editável no mesmo campo, revisão e envio manual obrigatório, cancelamento do microfone ao fechar, indicação de falhas e permissões de microfone. Nenhum áudio é armazenado pelo aplicativo, sem alterações de permissões ou da lógica de confirmação de ações da IA. Schema 35, Worker 1.38.6 já publicado em homologação na versão anterior — não republicar Worker. PRODUÇÃO inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.42/Sistema_Restaurante_Massas_R18.46.42_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "aa3afe6fda238416cf55d58b1cdd1e0a4c801334e9c304e766576bed9f7398ce",
+  "source_fingerprint": "9f1f5eff340f94f603804ebc9f2ae865911399b136418832c2e3a860fa9dc82b",
+  "notes": "R18.46.42 HOMOLOGAÇÃO CUMULATIVA — Mantém tudo de R18.46.41 aprovado nos testes. Ajustes de interface: três ações de itens/sabores mais alinhadas, botões Falar/Enviar ligeiramente menores. Maritaca: quando a API oficial não informa gasto mensal, exibe 'Não informado', sem estimar por diferença de saldo; o valor continuará indisponível até ser fornecido oficialmente. IA do Administrador: fluxo guiado por voz ou texto para criar rascunho inativo de receita fixa ou montável básico, perguntando tipo do prato, porções cadastradas/diferenciadas, peso independente da massa/base e limites mínimos/máximos/incluídos por grupo no montável. Não suporta configuração automática complexa de tamanhos, sabores específicos nem excedentes pagos — revisar manualmente o Cardápio antes de ativar. Exclusão de prato via IA por nome exato com confirmação independente: remove cadastro sem histórico, ou desativa e oculta online quando há histórico para preservar pedidos/relatórios. Cancela criação sem gravar; autenticação Admin e auditoria. Schema 35 e Worker 1.38.6 inalterados; Produção não modificada."
 }
