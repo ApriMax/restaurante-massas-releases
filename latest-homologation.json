@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.44",
-  "build": "R18.46.44-HOMOLOGACAO-IA-CADASTROS-GUIADOS",
+  "release": "R18.46.45",
+  "build": "R18.46.45-HOMOLOGACAO-IA-CADASTRO-INSUMOS",
   "schema": 36,
   "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.44/Sistema_Restaurante_Massas_R18.46.44_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "97fda8f4277122325e8734870411751a7ad70cc8ee6e25e80ad364deb9d93413",
-  "source_fingerprint": "9063b7ca060c435d6e221ac0e2b58043e2a32de040aa6c18d22167c2edba2acd",
-  "notes": "R18.46.44 HOMOLOGAÇÃO incremental cumulativa — IA passa a compreender comandos curtos 'Monte um prato', 'Cadastre um gasto' e 'Cadastre uma conta a pagar', conduzindo perguntas numeradas e persistentes pela sessão do Administrador. A criação de pratos gera rascunhos inativos; gastos e contas simples, não recorrentes, são gravados somente após confirmação explícita e com registro de auditoria. Gastos de mercadorias não alteram o custo de ingredientes implicitamente. A interface mostra processamento durante exclusões e confirmações. Preserva funções da R18.46.43. Worker 1.38.6 e schema 36 sem alterações; Produção inalterada. Escopo não incluído nesta release: montagens complexas por tamanho e sabor, gestão de promoções pela IA, comandos financeiros avançados e edição irrestrita de cadastros; essas ações exigem implementação e testes posteriores."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.45/Sistema_Restaurante_Massas_R18.46.45_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "b9221c499320cd41b2a655a1eb92bc6da4b4b766049707b3dd85dd222b763eaa",
+  "source_fingerprint": "d43ae94cf0ad0b03cd83a9ed78be500b18e2c9a1f4a6095263859234e15c7984",
+  "notes": "R18.46.45 HOMOLOGAÇÃO CUMULATIVA — Assistente IA permite cadastrar ingredientes e grupos ausentes durante a criação do prato, com perguntas de grupo (existente ou novo), tipo de seleção, porção padrão e custo atual. Exige confirmação do Administrador para cadastro atômico, audita a ação, respeita a separação de Sabores, impede duplicidades, permite cancelar e retoma automaticamente a montagem guiada. O prato continua criado apenas como rascunho INATIVO mediante confirmação separada. Preserva funções e testes da R18.46.44. Não inclui ainda toda a montagem avançada com tamanhos/sabores/excedentes, nem promoções e operações financeiras avançadas pela IA. Schema local 36, Worker esperado 1.38.6 sem republicação. Produção inalterada."
 }
