@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.46",
-  "build": "R18.46.46-HOMOLOGACAO-IA-TAMANHOS-LIMITES",
+  "release": "R18.46.47",
+  "build": "R18.46.47-HOMOLOGACAO-IA-SABORES-UX-CUSTOS",
   "schema": 36,
   "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.46/Sistema_Restaurante_Massas_R18.46.46_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "0d03d09510a8fb5ed94a037e4967a813c4f6acd5e55e8dd576a60f02a2826c41",
-  "source_fingerprint": "cdcecb1ddb364ca27c55b7d7188aa89c911d59245f6514d716e294cef1ee6ad8",
-  "notes": "R18.46.46 HOMOLOGAÇÃO CUMULATIVA — Assistente IA permite montar pratos com preços definidos SOMENTE por tamanho, sem exigir preço base, utilizando os tamanhos ativos cadastrados. Pergunta por preço e limite de ingredientes/molhos para cada tamanho; configura permissão de excedente de ingredientes e molhos independentemente, obrigatoriedade de seleção e preço dos adicionais. Salva metadados na estrutura padrão do Cardápio e gera rascunho INATIVO sob confirmação do Administrador. Preserva cadastro guiado de insumos e grupos da R18.46.45 e funções anteriores. Ainda não inclui UI de fonte +/- da IA, botões Falar/Enviar mais estreitos, reorganização do modal Atualizar custo, botão Atualizar custo na aba Cadastros, sabores/porções repetidas avançadas, promoções ou operações financeiras avançadas pela IA; anotados para próxima release. Schema 36; Worker esperado 1.38.6 sem republicação. Produção inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.47/Sistema_Restaurante_Massas_R18.46.47_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "2c5f061a7c19d84a563b6212047905e7ff9deb8ac555ad3281bf016fb335b627",
+  "source_fingerprint": "903644200325ae35897248d6ae3dcbabf641f11773d72a7be9138c165cd99eaa",
+  "notes": "R18.46.47 HOMOLOGAÇÃO CUMULATIVA — IA permite escolher Sabores de forma explícita pelo grupo, com custo individual por prato+sabor registrado em histórico separado (sem contaminar o custo do mesmo recheio em outros pratos); peso de porção padrão ou diferenciado por sabor; porções repetidas configuráveis por item quando o módulo do restaurante estiver ativo. Cadastros passa a ter botões nesta ordem: +Grupo Personalizado, +Cadastrar item adicional, Atualizar custo (reutiliza a lógica de Gastos, mesma permissão). IA ganha controles +/- para tamanho da fonte com persistência local e botões Falar/Enviar menores. Modal Atualizar custo recebe melhorias responsivas contra sobreposição/rolagem horizontal. Mantém recursos e testes das versões R18.46.45 e R18.46.46. Rascunhos da IA permanecem INATIVOS e exigem confirmação do Administrador. Schema local 36 e Worker 1.38.6, sem republicação. Produção inalterada."
 }
