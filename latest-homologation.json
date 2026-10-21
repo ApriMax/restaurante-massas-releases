@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.47",
-  "build": "R18.46.47-HOMOLOGACAO-IA-SABORES-UX-CUSTOS",
+  "release": "R18.46.48",
+  "build": "R18.46.48-HOMOLOGACAO-IA-EDICAO-CARDAPIO",
   "schema": 36,
   "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.47/Sistema_Restaurante_Massas_R18.46.47_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "2c5f061a7c19d84a563b6212047905e7ff9deb8ac555ad3281bf016fb335b627",
-  "source_fingerprint": "903644200325ae35897248d6ae3dcbabf641f11773d72a7be9138c165cd99eaa",
-  "notes": "R18.46.47 HOMOLOGAÇÃO CUMULATIVA — IA permite escolher Sabores de forma explícita pelo grupo, com custo individual por prato+sabor registrado em histórico separado (sem contaminar o custo do mesmo recheio em outros pratos); peso de porção padrão ou diferenciado por sabor; porções repetidas configuráveis por item quando o módulo do restaurante estiver ativo. Cadastros passa a ter botões nesta ordem: +Grupo Personalizado, +Cadastrar item adicional, Atualizar custo (reutiliza a lógica de Gastos, mesma permissão). IA ganha controles +/- para tamanho da fonte com persistência local e botões Falar/Enviar menores. Modal Atualizar custo recebe melhorias responsivas contra sobreposição/rolagem horizontal. Mantém recursos e testes das versões R18.46.45 e R18.46.46. Rascunhos da IA permanecem INATIVOS e exigem confirmação do Administrador. Schema local 36 e Worker 1.38.6, sem republicação. Produção inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.48/Sistema_Restaurante_Massas_R18.46.48_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "32e76bd17e18ad9b938c3e66387c0042a999b343f37526f27c5a06b9def607af",
+  "source_fingerprint": "8622811894c66db080a0b5eaf8e985eec592648c9fe354e2b316e35ef2322d8a",
+  "notes": "R18.46.48 HOMOLOGAÇÃO CUMULATIVA — IA com mensagens guiadas organizadas e resumo destacado, Voltar, Editar por menu numérico e preço de venda por sabor separado do custo; rascunhos inativos e confirmação de Administrador. Cardápio mostra preços de venda alinhados ao título; online diferencia preço fixo, preço por tamanho e A partir de condicional, além de inclusos e adicionais por tamanho. Corrige controles de fonte IA e compactação Falar/Enviar; mantém custos aprovados da R18.46.47. Schema 36, Worker 1.38.6, sem alterar Produção."
 }
