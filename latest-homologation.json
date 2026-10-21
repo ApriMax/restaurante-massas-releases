@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.43",
-  "build": "R18.46.43-HOMOLOGACAO-IA-FLUXO-PERSISTENTE",
+  "release": "R18.46.44",
+  "build": "R18.46.44-HOMOLOGACAO-IA-CADASTROS-GUIADOS",
   "schema": 36,
   "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.43/Sistema_Restaurante_Massas_R18.46.43_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "7f956ac8da4fe811f66f39febad7867aab8883e92bc3e2bd2bd12d80a048d263",
-  "source_fingerprint": "16bb7e6097b4ecfcaeb207e4acd3f8bfdf398c2795c636db230e23c330f860b1",
-  "notes": "R18.46.43 HOMOLOGAÇÃO CUMULATIVA — correção do assistente IA montável: respostas de quantidade (ex.: '1,2,2') não devem perder a montagem ativa e virar consulta genérica. Fluxo das perguntas do prato é armazenado temporariamente no SQLite local, vinculado à sessão do Administrador e renovado a cada resposta válida, para resistir a reinícios do servidor. Expiração após 30 minutos sem resposta; respostas numéricas sem fluxo retornam orientação clara. Criação continua sempre inativa e dependente de confirmação. Preserva integralmente as funções e ajustes de R18.46.42. Schema local 36 para tabela temporária de montagem IA. Worker homologação 1.38.6 sem republicação. Produção inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.44/Sistema_Restaurante_Massas_R18.46.44_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "97fda8f4277122325e8734870411751a7ad70cc8ee6e25e80ad364deb9d93413",
+  "source_fingerprint": "9063b7ca060c435d6e221ac0e2b58043e2a32de040aa6c18d22167c2edba2acd",
+  "notes": "R18.46.44 HOMOLOGAÇÃO incremental cumulativa — IA passa a compreender comandos curtos 'Monte um prato', 'Cadastre um gasto' e 'Cadastre uma conta a pagar', conduzindo perguntas numeradas e persistentes pela sessão do Administrador. A criação de pratos gera rascunhos inativos; gastos e contas simples, não recorrentes, são gravados somente após confirmação explícita e com registro de auditoria. Gastos de mercadorias não alteram o custo de ingredientes implicitamente. A interface mostra processamento durante exclusões e confirmações. Preserva funções da R18.46.43. Worker 1.38.6 e schema 36 sem alterações; Produção inalterada. Escopo não incluído nesta release: montagens complexas por tamanho e sabor, gestão de promoções pela IA, comandos financeiros avançados e edição irrestrita de cadastros; essas ações exigem implementação e testes posteriores."
 }
