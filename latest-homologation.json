@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.54",
-  "build": "R18.46.54-HOMOLOGACAO-PAGAR-DEPOIS-TAMANHOS",
+  "release": "R18.46.55",
+  "build": "R18.46.55-HOMOLOGACAO-CONSULTA-CUSTOS-UX-MANUAL",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.54/Sistema_Restaurante_Massas_R18.46.54_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "a354336ea06b0796ee3b5d76863cfd61f16d5e62eb9d3a5c4b3783b5c64ecf9e",
-  "source_fingerprint": "954eb609611053333a1858370b172e508d47ede2022d7e28a52c89503f9c0437",
-  "notes": "R18.46.54 preparada para HOMOLOGAÇÃO: restaurar Pagar Depois na cobrança após criar pedido manual, preservando status pendente e recebimento posterior; pedido online volta a exibir os limites de molhos e ingredientes incluídos em cada tamanho (Médio/Grande), com regras reais do cadastro e adicionais inalterados. Worker HOMOLOGAÇÃO 1.38.8 requer deploy junto do aplicativo. R18.46.53 e anteriores mantidas; PRODUÇÃO inalterada. Publicação autorizada em 22/10/2026, exclusivamente em HOMOLOGAÇÃO."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.55/Sistema_Restaurante_Massas_R18.46.55_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "7505986013e5d8d2a78325112598183e2150959be5fd3d28ccdb797ac010b1b9",
+  "source_fingerprint": "de6f535dd84f6f0a935fe505d4e1b53138bdcb12da0657f1e20ba359d06af56e",
+  "notes": "R18.46.55 PREPARADA para HOMOLOGAÇÃO: consulta somente leitura de todos os custos atuais, com busca e dados compartilhados do App Gastos, sem perda das alterações em andamento; remover as descrições curtas dos itens no pedido manual preservando as descrições no online. Cumulativa da R18.46.54, Worker 1.38.8 inalterado. PRODUÇÃO inalterada. Publicação autorizada em 22/10/2026 exclusivamente em HOMOLOGAÇÃO."
 }
