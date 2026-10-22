@@ -1,3 +1,3 @@
-# Homologação R18.46.55
+# Homologação R18.46.56
 
-R18.46.55 PREPARADA para HOMOLOGAÇÃO: consulta somente leitura de todos os custos atuais, com busca e dados compartilhados do App Gastos, sem perda das alterações em andamento; remover as descrições curtas dos itens no pedido manual preservando as descrições no online. Cumulativa da R18.46.54, Worker 1.38.8 inalterado. PRODUÇÃO inalterada. Publicação autorizada em 22/10/2026 exclusivamente em HOMOLOGAÇÃO.
+R18.46.56 preparada para HOMOLOGAÇÃO: IA pode localizar pratos cadastrados por nome/número, editar o nome e preço base (sem tamanho) ou preço por tamanho, com revisão e confirmação antes de gravar. Proteções contra conflito e promoção; preserva ingredientes, porções, sabores e pedidos anteriores. Worker 1.38.8 sem republicação; produção inalterada. Publicação autorizada em 22/10/2026 exclusivamente para HOMOLOGAÇÃO.
