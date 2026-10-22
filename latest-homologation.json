@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.51",
-  "build": "R18.46.51-HOMOLOGACAO-IA-CADASTRO-NUMERICO",
+  "release": "R18.46.52",
+  "build": "R18.46.52-HOMOLOGACAO-DNS-PROPORCAO-MEDIDAS",
   "schema": 36,
   "worker_version": "1.38.7",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.51/Sistema_Restaurante_Massas_R18.46.51_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "b852d2ad8ee1d384f5ea3867ace716186ebfe401c3966ab40ba8c1f457b457ca",
-  "source_fingerprint": "7534a3c52f5bbff521b25e64c3d14eae16e341c7ca0d12c0781ffb4fd00d9296",
-  "notes": "R18.46.51 HOMOLOGAÇÃO — seleção numerada com opção de cadastrar ingrediente novo e retomar a montagem sem perder os itens; suporte a porções em ml/L, leitura da segunda medida cadastrada e preservação da outra medida; confirmação administrativa e custo por litro para novos líquidos. Atualização cumulativa da R18.46.50. Schema 36, Worker 1.38.7 sem novo deploy. Produção inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.52/Sistema_Restaurante_Massas_R18.46.52_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "17897784b838f417f74dce837aecf14bbadbfb6b859a242bced76dd2a49ff7c8",
+  "source_fingerprint": "afb2d4729dd7ec16af026bd3bca159f076bbb3e149168535b99df3e651d1eef8",
+  "notes": "R18.46.52 HOMOLOGAÇÃO — correção do atualizador com novas tentativas em falhas DNS/timeout e orientação para instalação manual; porções diferenciadas mantêm proporção entre as duas medidas do ingrediente (100 ml + 120 g → 30 ml + 36 g), refletindo custos, consumo e revisão do Assistente IA, sem alterar o cadastro original. Backups e SHA-256 preservados; Worker 1.38.7 sem redeploy. Produção inalterada."
 }

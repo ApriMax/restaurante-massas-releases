@@ -1,3 +1,3 @@
-# Homologação R18.46.51
+# Homologação R18.46.52
 
-R18.46.51 HOMOLOGAÇÃO — seleção numerada com opção de cadastrar ingrediente novo e retomar a montagem sem perder os itens; suporte a porções em ml/L, leitura da segunda medida cadastrada e preservação da outra medida; confirmação administrativa e custo por litro para novos líquidos. Atualização cumulativa da R18.46.50. Schema 36, Worker 1.38.7 sem novo deploy. Produção inalterada.
+R18.46.52 HOMOLOGAÇÃO — correção do atualizador com novas tentativas em falhas DNS/timeout e orientação para instalação manual; porções diferenciadas mantêm proporção entre as duas medidas do ingrediente (100 ml + 120 g → 30 ml + 36 g), refletindo custos, consumo e revisão do Assistente IA, sem alterar o cadastro original. Backups e SHA-256 preservados; Worker 1.38.7 sem redeploy. Produção inalterada.
