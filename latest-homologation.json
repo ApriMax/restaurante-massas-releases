@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.57",
-  "build": "R18.46.57-HOMOLOGACAO-IA-LISTA-PRATOS",
+  "release": "R18.46.59",
+  "build": "R18.46.59-HOMOLOGACAO-IA-8-FRENTES",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.57/Sistema_Restaurante_Massas_R18.46.57_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "417263efb283a5164041ce92439d717dfab7ab631c0e0f59c076953df5083ba6",
-  "source_fingerprint": "7da9b168370e313d5138d2f71eef4ca2884e1be6e3b127029d88c1aa97763fa6",
-  "notes": "R18.46.57 preparada para HOMOLOGAÇÃO: comando 'Edite um prato' lista imediatamente todos os pratos cadastrados em páginas de 20, numerados globalmente, com busca por nome, indicação de pratos desativados e navegação numérica. Exclui itens adicionais e mantém edição por nome, menus, revisão, confirmação, histórico e segurança da R18.46.56. Worker 1.38.8 sem novo deploy. Produção inalterada; publicação autorizada em 22/10/2026 exclusivamente para HOMOLOGAÇÃO."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.59/Sistema_Restaurante_Massas_R18.46.59_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "e50afc50df5ef473ef16081e02182d86dda393a2d30729ad28711d4ba9076d44",
+  "source_fingerprint": "cfb484af259729aaa8145a1bb5b37edf143408dd8bb4b2164da9dbc5de5707d8",
+  "notes": "R18.46.59 publicada em HOMOLOGAÇÃO por solicitação do Administrador em 22/10/2026: oito frentes da IA (montagem e edição de ingredientes/molhos/sabores; porções e proporção de unidades; limites e excedentes por tamanho; custos de sabor, repetições; tipo de receita; operação e indisponibilidades; relatórios financeiros por período; edição restrita de registros financeiros). Fluxos guiados sob confirmação, auditoria e proteções. Worker 1.38.8 sem deploy e PRODUÇÃO inalterada."
 }
