@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.52",
-  "build": "R18.46.52-HOMOLOGACAO-DNS-PROPORCAO-MEDIDAS",
+  "release": "R18.46.53",
+  "build": "R18.46.53-HOMOLOGACAO-EDITOR-PORCAO-PROPORCIONAL",
   "schema": 36,
   "worker_version": "1.38.7",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.52/Sistema_Restaurante_Massas_R18.46.52_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "17897784b838f417f74dce837aecf14bbadbfb6b859a242bced76dd2a49ff7c8",
-  "source_fingerprint": "afb2d4729dd7ec16af026bd3bca159f076bbb3e149168535b99df3e651d1eef8",
-  "notes": "R18.46.52 HOMOLOGAÇÃO — correção do atualizador com novas tentativas em falhas DNS/timeout e orientação para instalação manual; porções diferenciadas mantêm proporção entre as duas medidas do ingrediente (100 ml + 120 g → 30 ml + 36 g), refletindo custos, consumo e revisão do Assistente IA, sem alterar o cadastro original. Backups e SHA-256 preservados; Worker 1.38.7 sem redeploy. Produção inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.53/Sistema_Restaurante_Massas_R18.46.53_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "acd42758f8f63005c1ad04df4736a9acdd519b17854dda0f2526ef0d22d8c867",
+  "source_fingerprint": "7c0f17732ce1165780114cae75b94b248c262a0492ac0e0c41bde58934d4959e",
+  "notes": "R18.46.53 HOMOLOGAÇÃO — correção da exibição e edição de porções diferenciadas no editor de pratos: porção padrão 100 ml + 120 g e porção neste prato 50 ml + 60 g, preservando quantidade e unidade ml/g ao reabrir/editar/salvar; prévia do custo respeita proporcionalidade e base kg/l, sem somar duas vezes. Cumulativa da R18.46.52, Worker 1.38.7 sem republicação. Produção inalterada."
 }
