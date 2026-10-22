@@ -1,3 +1,3 @@
-# Homologação R18.46.53
+# Homologação R18.46.54
 
-R18.46.53 HOMOLOGAÇÃO — correção da exibição e edição de porções diferenciadas no editor de pratos: porção padrão 100 ml + 120 g e porção neste prato 50 ml + 60 g, preservando quantidade e unidade ml/g ao reabrir/editar/salvar; prévia do custo respeita proporcionalidade e base kg/l, sem somar duas vezes. Cumulativa da R18.46.52, Worker 1.38.7 sem republicação. Produção inalterada.
+R18.46.54 preparada para HOMOLOGAÇÃO: restaurar Pagar Depois na cobrança após criar pedido manual, preservando status pendente e recebimento posterior; pedido online volta a exibir os limites de molhos e ingredientes incluídos em cada tamanho (Médio/Grande), com regras reais do cadastro e adicionais inalterados. Worker HOMOLOGAÇÃO 1.38.8 requer deploy junto do aplicativo. R18.46.53 e anteriores mantidas; PRODUÇÃO inalterada. Publicação autorizada em 22/10/2026, exclusivamente em HOMOLOGAÇÃO.

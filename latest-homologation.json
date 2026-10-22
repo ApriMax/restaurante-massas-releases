@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.53",
-  "build": "R18.46.53-HOMOLOGACAO-EDITOR-PORCAO-PROPORCIONAL",
+  "release": "R18.46.54",
+  "build": "R18.46.54-HOMOLOGACAO-PAGAR-DEPOIS-TAMANHOS",
   "schema": 36,
-  "worker_version": "1.38.7",
+  "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.53/Sistema_Restaurante_Massas_R18.46.53_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "acd42758f8f63005c1ad04df4736a9acdd519b17854dda0f2526ef0d22d8c867",
-  "source_fingerprint": "7c0f17732ce1165780114cae75b94b248c262a0492ac0e0c41bde58934d4959e",
-  "notes": "R18.46.53 HOMOLOGAÇÃO — correção da exibição e edição de porções diferenciadas no editor de pratos: porção padrão 100 ml + 120 g e porção neste prato 50 ml + 60 g, preservando quantidade e unidade ml/g ao reabrir/editar/salvar; prévia do custo respeita proporcionalidade e base kg/l, sem somar duas vezes. Cumulativa da R18.46.52, Worker 1.38.7 sem republicação. Produção inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.54/Sistema_Restaurante_Massas_R18.46.54_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "a354336ea06b0796ee3b5d76863cfd61f16d5e62eb9d3a5c4b3783b5c64ecf9e",
+  "source_fingerprint": "954eb609611053333a1858370b172e508d47ede2022d7e28a52c89503f9c0437",
+  "notes": "R18.46.54 preparada para HOMOLOGAÇÃO: restaurar Pagar Depois na cobrança após criar pedido manual, preservando status pendente e recebimento posterior; pedido online volta a exibir os limites de molhos e ingredientes incluídos em cada tamanho (Médio/Grande), com regras reais do cadastro e adicionais inalterados. Worker HOMOLOGAÇÃO 1.38.8 requer deploy junto do aplicativo. R18.46.53 e anteriores mantidas; PRODUÇÃO inalterada. Publicação autorizada em 22/10/2026, exclusivamente em HOMOLOGAÇÃO."
 }
