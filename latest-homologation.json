@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.48",
-  "build": "R18.46.48-HOMOLOGACAO-IA-EDICAO-CARDAPIO",
+  "release": "R18.46.49",
+  "build": "R18.46.49-HOMOLOGACAO-IA-BOTOES-COMPACTOS",
   "schema": 36,
   "worker_version": "1.38.6",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.48/Sistema_Restaurante_Massas_R18.46.48_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "32e76bd17e18ad9b938c3e66387c0042a999b343f37526f27c5a06b9def607af",
-  "source_fingerprint": "8622811894c66db080a0b5eaf8e985eec592648c9fe354e2b316e35ef2322d8a",
-  "notes": "R18.46.48 HOMOLOGAÇÃO CUMULATIVA — IA com mensagens guiadas organizadas e resumo destacado, Voltar, Editar por menu numérico e preço de venda por sabor separado do custo; rascunhos inativos e confirmação de Administrador. Cardápio mostra preços de venda alinhados ao título; online diferencia preço fixo, preço por tamanho e A partir de condicional, além de inclusos e adicionais por tamanho. Corrige controles de fonte IA e compactação Falar/Enviar; mantém custos aprovados da R18.46.47. Schema 36, Worker 1.38.6, sem alterar Produção."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.49/Sistema_Restaurante_Massas_R18.46.49_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "4ad3dfabb53100e769ff383e457ac8340a7f291ec9c0585261d5eda0895d27da",
+  "source_fingerprint": "1ded307eaf574b9003555a680edcd610a4d05de39d3ffd89ef8ad7bd0ac5cf42",
+  "notes": "R18.46.49 HOMOLOGAÇÃO HOTFIX sobre R18.46.48 — corrigido o esticamento vertical dos botões Falar/Enviar no Assistente IA: altura fixa 38px, largura compacta 58px (responsiva no celular), alinhamento à base do campo de texto e indicador de processamento acessível. Preserva IA revisável, Cardápio e preços online da R18.46.48. Schema 36; Worker 1.38.6 sem deploy. Produção inalterada."
 }
