@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.60",
-  "build": "R18.46.60-HOMOLOGACAO-IA-ATALHOS-DIRETOS",
+  "release": "R18.46.61",
+  "build": "R18.46.61-HOMOLOGACAO-IA-DATAS-BRASILEIRAS",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.60/Sistema_Restaurante_Massas_R18.46.60_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "d788c8025dfd68731a1e4ccb9866aa4e66bade4cd096fd4b8104752a3aa1959b",
-  "source_fingerprint": "8fbd2de18b552d9e749f36191d2667ccd0e9aae452d187d7d830714902ae5ef0",
-  "notes": "R18.46.60 publicada em HOMOLOGAÇÃO por autorização do Administrador: nove atalhos na largura do chat que enviam o comando diretamente, sem digitar; Consultar custo e Alterar custo solicitam ingrediente e, para alteração, valor e confirmação. Listagem de opções, segurança contra edições simultâneas, sem preço ou item predefinidos. Voz e mensagens manuais preservadas. Worker 1.38.8 sem deploy. PRODUÇÃO inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.61/Sistema_Restaurante_Massas_R18.46.61_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "ea0d2070e234e89f4d6ad6e84da0ec385a29f3f736c1e29a8ae2c40671d11877",
+  "source_fingerprint": "f488ffcb6473efff5abd882bfca7380442387a62d568338299f6bc168545025a",
+  "notes": "R18.46.61 publicada em HOMOLOGAÇÃO por autorização do Administrador em 22/10/2026: Assistente IA Financeiro aceita datas brasileiras DD/MM/AAAA a DD/MM/AAAA, inclusive até/de e dia único, além de ISO legado; apresenta datas brasileiras em orientações, mensagens de erro e relatórios. Preserva validações de intervalo, datas reais e não futuras, e parâmetros ISO na API interna. Worker 1.38.8 sem deploy. PRODUÇÃO inalterada."
 }
