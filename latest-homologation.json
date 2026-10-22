@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.50",
-  "build": "R18.46.50-HOMOLOGACAO-IA-LISTAS-PRECOS-SABORES",
+  "release": "R18.46.51",
+  "build": "R18.46.51-HOMOLOGACAO-IA-CADASTRO-NUMERICO",
   "schema": 36,
   "worker_version": "1.38.7",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.50/Sistema_Restaurante_Massas_R18.46.50_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "5f5eb60cf54ad24a58a3da7594bc50d5a294372841b3698c627de705c220d58b",
-  "source_fingerprint": "6dbb69d2e1f88d59110623609c21c88dab8d51584d9fd5ea346ce769767f0c06",
-  "notes": "R18.46.50 HOMOLOGAÇÃO — negrito real e melhor formatação das mensagens do Assistente IA; seleção guiada de grupos/ingredientes/molhos/sabores por números, sem listar itens já selecionados, mantendo digitação manual; pedidos online com 'A partir de' para pratos com sabores de preço variável. Worker 1.38.7 publicado exclusivamente em HOMOLOGAÇÃO. Schema 36; Produção inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.51/Sistema_Restaurante_Massas_R18.46.51_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "b852d2ad8ee1d384f5ea3867ace716186ebfe401c3966ab40ba8c1f457b457ca",
+  "source_fingerprint": "7534a3c52f5bbff521b25e64c3d14eae16e341c7ca0d12c0781ffb4fd00d9296",
+  "notes": "R18.46.51 HOMOLOGAÇÃO — seleção numerada com opção de cadastrar ingrediente novo e retomar a montagem sem perder os itens; suporte a porções em ml/L, leitura da segunda medida cadastrada e preservação da outra medida; confirmação administrativa e custo por litro para novos líquidos. Atualização cumulativa da R18.46.50. Schema 36, Worker 1.38.7 sem novo deploy. Produção inalterada."
 }

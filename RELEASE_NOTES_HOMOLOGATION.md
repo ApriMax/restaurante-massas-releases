@@ -1,3 +1,3 @@
-# Homologação R18.46.50
+# Homologação R18.46.51
 
-R18.46.50 HOMOLOGAÇÃO — negrito real e melhor formatação das mensagens do Assistente IA; seleção guiada de grupos/ingredientes/molhos/sabores por números, sem listar itens já selecionados, mantendo digitação manual; pedidos online com 'A partir de' para pratos com sabores de preço variável. Worker 1.38.7 publicado exclusivamente em HOMOLOGAÇÃO. Schema 36; Produção inalterada.
+R18.46.51 HOMOLOGAÇÃO — seleção numerada com opção de cadastrar ingrediente novo e retomar a montagem sem perder os itens; suporte a porções em ml/L, leitura da segunda medida cadastrada e preservação da outra medida; confirmação administrativa e custo por litro para novos líquidos. Atualização cumulativa da R18.46.50. Schema 36, Worker 1.38.7 sem novo deploy. Produção inalterada.
