@@ -1,3 +1,3 @@
-# Homologação R18.46.49
+# Homologação R18.46.50
 
-R18.46.49 HOMOLOGAÇÃO HOTFIX sobre R18.46.48 — corrigido o esticamento vertical dos botões Falar/Enviar no Assistente IA: altura fixa 38px, largura compacta 58px (responsiva no celular), alinhamento à base do campo de texto e indicador de processamento acessível. Preserva IA revisável, Cardápio e preços online da R18.46.48. Schema 36; Worker 1.38.6 sem deploy. Produção inalterada.
+R18.46.50 HOMOLOGAÇÃO — negrito real e melhor formatação das mensagens do Assistente IA; seleção guiada de grupos/ingredientes/molhos/sabores por números, sem listar itens já selecionados, mantendo digitação manual; pedidos online com 'A partir de' para pratos com sabores de preço variável. Worker 1.38.7 publicado exclusivamente em HOMOLOGAÇÃO. Schema 36; Produção inalterada.
