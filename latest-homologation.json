@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.59",
-  "build": "R18.46.59-HOMOLOGACAO-IA-8-FRENTES",
+  "release": "R18.46.60",
+  "build": "R18.46.60-HOMOLOGACAO-IA-ATALHOS-DIRETOS",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.59/Sistema_Restaurante_Massas_R18.46.59_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "e50afc50df5ef473ef16081e02182d86dda393a2d30729ad28711d4ba9076d44",
-  "source_fingerprint": "cfb484af259729aaa8145a1bb5b37edf143408dd8bb4b2164da9dbc5de5707d8",
-  "notes": "R18.46.59 publicada em HOMOLOGAÇÃO por solicitação do Administrador em 22/10/2026: oito frentes da IA (montagem e edição de ingredientes/molhos/sabores; porções e proporção de unidades; limites e excedentes por tamanho; custos de sabor, repetições; tipo de receita; operação e indisponibilidades; relatórios financeiros por período; edição restrita de registros financeiros). Fluxos guiados sob confirmação, auditoria e proteções. Worker 1.38.8 sem deploy e PRODUÇÃO inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.60/Sistema_Restaurante_Massas_R18.46.60_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "d788c8025dfd68731a1e4ccb9866aa4e66bade4cd096fd4b8104752a3aa1959b",
+  "source_fingerprint": "8fbd2de18b552d9e749f36191d2667ccd0e9aae452d187d7d830714902ae5ef0",
+  "notes": "R18.46.60 publicada em HOMOLOGAÇÃO por autorização do Administrador: nove atalhos na largura do chat que enviam o comando diretamente, sem digitar; Consultar custo e Alterar custo solicitam ingrediente e, para alteração, valor e confirmação. Listagem de opções, segurança contra edições simultâneas, sem preço ou item predefinidos. Voz e mensagens manuais preservadas. Worker 1.38.8 sem deploy. PRODUÇÃO inalterada."
 }
