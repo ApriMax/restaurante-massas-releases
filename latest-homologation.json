@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.61",
-  "build": "R18.46.61-HOMOLOGACAO-IA-DATAS-BRASILEIRAS",
+  "release": "R18.46.62",
+  "build": "R18.46.62-HOMOLOGACAO-IA-ESCOLHAS-NUMERADAS",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.61/Sistema_Restaurante_Massas_R18.46.61_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "ea0d2070e234e89f4d6ad6e84da0ec385a29f3f736c1e29a8ae2c40671d11877",
-  "source_fingerprint": "f488ffcb6473efff5abd882bfca7380442387a62d568338299f6bc168545025a",
-  "notes": "R18.46.61 publicada em HOMOLOGAÇÃO por autorização do Administrador em 22/10/2026: Assistente IA Financeiro aceita datas brasileiras DD/MM/AAAA a DD/MM/AAAA, inclusive até/de e dia único, além de ISO legado; apresenta datas brasileiras em orientações, mensagens de erro e relatórios. Preserva validações de intervalo, datas reais e não futuras, e parâmetros ISO na API interna. Worker 1.38.8 sem deploy. PRODUÇÃO inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.62/Sistema_Restaurante_Massas_R18.46.62_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "38170b8b1249245884deab98c98e39e481615494c5994d75a440378c0ce3d18c",
+  "source_fingerprint": "3495dd01db3bbd29c5fe09714cf67ebae74389ca1007037578d2ccb12ca3d78a",
+  "notes": "R18.46.62 publicada em HOMOLOGAÇÃO com autorização do Administrador em 22/10/2026: menus do Assistente IA para custos, ingredientes, molhos, sabores, grupos, itens em falta, edição avançada e exclusão assistida de pratos agora têm opções numeradas, pesquisa e navegação por páginas (P/A). Preserva escolha por nome exato quando já informada, confirmação de alterações, histórico e custos; corrige persistência da etapa de criar grupo. Nenhuma alteração no Worker 1.38.8. PRODUÇÃO inalterada."
 }

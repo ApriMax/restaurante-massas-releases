@@ -1,3 +1,3 @@
-# Homologação R18.46.61
+# Homologação R18.46.62
 
-R18.46.61 publicada em HOMOLOGAÇÃO por autorização do Administrador em 22/10/2026: Assistente IA Financeiro aceita datas brasileiras DD/MM/AAAA a DD/MM/AAAA, inclusive até/de e dia único, além de ISO legado; apresenta datas brasileiras em orientações, mensagens de erro e relatórios. Preserva validações de intervalo, datas reais e não futuras, e parâmetros ISO na API interna. Worker 1.38.8 sem deploy. PRODUÇÃO inalterada.
+R18.46.62 publicada em HOMOLOGAÇÃO com autorização do Administrador em 22/10/2026: menus do Assistente IA para custos, ingredientes, molhos, sabores, grupos, itens em falta, edição avançada e exclusão assistida de pratos agora têm opções numeradas, pesquisa e navegação por páginas (P/A). Preserva escolha por nome exato quando já informada, confirmação de alterações, histórico e custos; corrige persistência da etapa de criar grupo. Nenhuma alteração no Worker 1.38.8. PRODUÇÃO inalterada.
