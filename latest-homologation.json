@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.63",
-  "build": "R18.46.63-HOMOLOGACAO-IA-CONTAS-GASTOS-POR-PERIODO",
+  "release": "R18.46.64",
+  "build": "R18.46.64-HOMOLOGACAO-CARD-FORA-DOS-TURNOS",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.63/Sistema_Restaurante_Massas_R18.46.63_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "15cfb6499e5dea8ec4df5794ec72e227f4056fe71104c67497fc7e2b7dd0f5ce",
-  "source_fingerprint": "9bf6135910a4f12d447ddf0c5cd66b412f894ad00d26b4afc8fcfd41dd9c01ff",
-  "notes": "R18.46.63 publicada em HOMOLOGAÇÃO por autorização do Administrador em 23/10/2026: Assistente IA consulta contas vencidas/atrasadas, vencimentos de hoje, contas a vencer em 7 ou 30 dias ou por período, contas pagas e pendentes por vencimento; consulta gastos por datas e meses, separa gastos avulsos de pagamentos de contas e identifica contas sem valor definido. Relatórios em DD/MM/AAAA, listas numeradas paginadas e totais reais; nenhuma alteração nos lançamentos/pagamentos. Worker 1.38.8 sem deploy e PRODUÇÃO inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.64/Sistema_Restaurante_Massas_R18.46.64_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "d17be4f7e82050b4bb026ad83ddd2dba43445b858c647ac516afa83e02824881",
+  "source_fingerprint": "33acd6fb776c761893f6e42960a691c7045df57d4291a63dc6f6205f4a822821",
+  "notes": "R18.46.64 publicada em HOMOLOGAÇÃO, autorizada pelo Administrador em 23/10/2026: card 'Fora dos turnos' aparece somente quando existem pedidos válidos fora dos horários de almoço/jantar (ou outros períodos configurados). Mantém os dois cards atuais, com os mesmos indicadores de recebido, pedidos, pratos, ticket médio, adicionais, pagamentos e origem; adapta a visualização a 3 colunas no desktop e responsiva no celular. Considera horários reais dos pedidos online em UTC, limites dos turnos e turnos que atravessam meia-noite. Não altera faturamento, pedidos ou regras de horários. Worker 1.38.8 sem deploy. PRODUÇÃO inalterada."
 }
