@@ -1,3 +1,3 @@
-# Homologação R18.46.62
+# Homologação R18.46.63
 
-R18.46.62 publicada em HOMOLOGAÇÃO com autorização do Administrador em 22/10/2026: menus do Assistente IA para custos, ingredientes, molhos, sabores, grupos, itens em falta, edição avançada e exclusão assistida de pratos agora têm opções numeradas, pesquisa e navegação por páginas (P/A). Preserva escolha por nome exato quando já informada, confirmação de alterações, histórico e custos; corrige persistência da etapa de criar grupo. Nenhuma alteração no Worker 1.38.8. PRODUÇÃO inalterada.
+R18.46.63 publicada em HOMOLOGAÇÃO por autorização do Administrador em 23/10/2026: Assistente IA consulta contas vencidas/atrasadas, vencimentos de hoje, contas a vencer em 7 ou 30 dias ou por período, contas pagas e pendentes por vencimento; consulta gastos por datas e meses, separa gastos avulsos de pagamentos de contas e identifica contas sem valor definido. Relatórios em DD/MM/AAAA, listas numeradas paginadas e totais reais; nenhuma alteração nos lançamentos/pagamentos. Worker 1.38.8 sem deploy e PRODUÇÃO inalterada.

@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.62",
-  "build": "R18.46.62-HOMOLOGACAO-IA-ESCOLHAS-NUMERADAS",
+  "release": "R18.46.63",
+  "build": "R18.46.63-HOMOLOGACAO-IA-CONTAS-GASTOS-POR-PERIODO",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.62/Sistema_Restaurante_Massas_R18.46.62_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "38170b8b1249245884deab98c98e39e481615494c5994d75a440378c0ce3d18c",
-  "source_fingerprint": "3495dd01db3bbd29c5fe09714cf67ebae74389ca1007037578d2ccb12ca3d78a",
-  "notes": "R18.46.62 publicada em HOMOLOGAÇÃO com autorização do Administrador em 22/10/2026: menus do Assistente IA para custos, ingredientes, molhos, sabores, grupos, itens em falta, edição avançada e exclusão assistida de pratos agora têm opções numeradas, pesquisa e navegação por páginas (P/A). Preserva escolha por nome exato quando já informada, confirmação de alterações, histórico e custos; corrige persistência da etapa de criar grupo. Nenhuma alteração no Worker 1.38.8. PRODUÇÃO inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.63/Sistema_Restaurante_Massas_R18.46.63_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "15cfb6499e5dea8ec4df5794ec72e227f4056fe71104c67497fc7e2b7dd0f5ce",
+  "source_fingerprint": "9bf6135910a4f12d447ddf0c5cd66b412f894ad00d26b4afc8fcfd41dd9c01ff",
+  "notes": "R18.46.63 publicada em HOMOLOGAÇÃO por autorização do Administrador em 23/10/2026: Assistente IA consulta contas vencidas/atrasadas, vencimentos de hoje, contas a vencer em 7 ou 30 dias ou por período, contas pagas e pendentes por vencimento; consulta gastos por datas e meses, separa gastos avulsos de pagamentos de contas e identifica contas sem valor definido. Relatórios em DD/MM/AAAA, listas numeradas paginadas e totais reais; nenhuma alteração nos lançamentos/pagamentos. Worker 1.38.8 sem deploy e PRODUÇÃO inalterada."
 }
