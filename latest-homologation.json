@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.64",
-  "build": "R18.46.64-HOMOLOGACAO-CARD-FORA-DOS-TURNOS",
+  "release": "R18.46.65",
+  "build": "R18.46.65-HOMOLOGACAO-AUDITORIA-STRESS-CONCORRENCIA",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.64/Sistema_Restaurante_Massas_R18.46.64_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "d17be4f7e82050b4bb026ad83ddd2dba43445b858c647ac516afa83e02824881",
-  "source_fingerprint": "33acd6fb776c761893f6e42960a691c7045df57d4291a63dc6f6205f4a822821",
-  "notes": "R18.46.64 publicada em HOMOLOGAÇÃO, autorizada pelo Administrador em 23/10/2026: card 'Fora dos turnos' aparece somente quando existem pedidos válidos fora dos horários de almoço/jantar (ou outros períodos configurados). Mantém os dois cards atuais, com os mesmos indicadores de recebido, pedidos, pratos, ticket médio, adicionais, pagamentos e origem; adapta a visualização a 3 colunas no desktop e responsiva no celular. Considera horários reais dos pedidos online em UTC, limites dos turnos e turnos que atravessam meia-noite. Não altera faturamento, pedidos ou regras de horários. Worker 1.38.8 sem deploy. PRODUÇÃO inalterada."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.65/Sistema_Restaurante_Massas_R18.46.65_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "aba718dd909678466c930eedbc651dc5534ca69d441e14978c3da4fcfc4075f4",
+  "source_fingerprint": "8cee918c0bd183309fec612070dc9ba2b31ab09bd626350e496545fe7f535013",
+  "notes": "R18.46.65 publicada em HOMOLOGAÇÃO com autorização do Administrador em 23/10/2026: auditoria intensiva de pré-produção e teste de carga com 1.600 pedidos persistidos de 10 pratos, 36 pedidos reais simultâneos, 40 gastos e 18 contas a pagar; proteção de duplicidade e concorrência nas aberturas/fechamentos de caixa, pagamentos de contas, cancelamentos com estorno e numeração local, mais verificação transacional de caixa aberto. Banco temporário íntegro após carga; relatórios e totais reconciliados. Mantém toda a compatibilidade, histórico, layouts e regras aprovadas. Sem alteração do Worker 1.38.8 e sem qualquer publicação em PRODUÇÃO."
 }
