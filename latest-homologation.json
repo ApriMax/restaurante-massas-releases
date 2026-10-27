@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.65",
-  "build": "R18.46.65-HOMOLOGACAO-AUDITORIA-STRESS-CONCORRENCIA",
+  "release": "R18.46.66",
+  "build": "R18.46.66-HOMOLOGACAO-SYNC-INTELIGENTE-TURNOS",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.65/Sistema_Restaurante_Massas_R18.46.65_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "aba718dd909678466c930eedbc651dc5534ca69d441e14978c3da4fcfc4075f4",
-  "source_fingerprint": "8cee918c0bd183309fec612070dc9ba2b31ab09bd626350e496545fe7f535013",
-  "notes": "R18.46.65 publicada em HOMOLOGAÇÃO com autorização do Administrador em 23/10/2026: auditoria intensiva de pré-produção e teste de carga com 1.600 pedidos persistidos de 10 pratos, 36 pedidos reais simultâneos, 40 gastos e 18 contas a pagar; proteção de duplicidade e concorrência nas aberturas/fechamentos de caixa, pagamentos de contas, cancelamentos com estorno e numeração local, mais verificação transacional de caixa aberto. Banco temporário íntegro após carga; relatórios e totais reconciliados. Mantém toda a compatibilidade, histórico, layouts e regras aprovadas. Sem alteração do Worker 1.38.8 e sem qualquer publicação em PRODUÇÃO."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.66/Sistema_Restaurante_Massas_R18.46.66_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "8d2ee46f571821219a59bd117fd265fe07da120958f9ae3038e978d0b891dde8",
+  "source_fingerprint": "7d9378bb681d9bff39590fd25413d052d4a1c54162ace7b78bb50e122f838884",
+  "notes": "R18.46.66 HOMOLOGAÇÃO: sincronização inteligente do PC com Worker do Sistema Macarrão. Sincroniza a cada 5 segundos durante almoço/jantar e aberturas excepcionais, iniciando 2 minutos antes e permanecendo por 30 minutos após cada turno; consulta a cada 60 segundos entre turnos; suspende consultas automáticas entre 23h e 9h, salvo turnos excepcionais, tolerância após encerramento e pendências de status. Mantém atualização manual, sincronização pontual de alterações de pedidos, redução de consultas da IA do Leitor e aviso de pausa programada na interface. Controle de horários desativado preserva o comportamento original. Sem alteração de schema ou Worker Cloudflare; publicação exclusiva em HOMOLOGAÇÃO, Produção preservada. Publicação direta sem artifacts temporários do GitHub Actions, devido à cota de armazenamento; mantém release pública e checksum SHA-256."
 }
