@@ -1,13 +1,13 @@
 {
   "channel": "homologation",
   "version": "1.7.0",
-  "release": "R18.46.66",
-  "build": "R18.46.66-HOMOLOGACAO-SYNC-INTELIGENTE-TURNOS",
+  "release": "R18.46.67",
+  "build": "R18.46.67-HOMOLOGACAO-MONITOR-CLOUDFLARE",
   "schema": 36,
   "worker_version": "1.38.8",
   "mandatory": false,
-  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.66/Sistema_Restaurante_Massas_R18.46.66_HOMOLOGACAO_UPDATE.zip",
-  "sha256": "8d2ee46f571821219a59bd117fd265fe07da120958f9ae3038e978d0b891dde8",
-  "source_fingerprint": "7d9378bb681d9bff39590fd25413d052d4a1c54162ace7b78bb50e122f838884",
-  "notes": "R18.46.66 HOMOLOGAÇÃO: sincronização inteligente do PC com Worker do Sistema Macarrão. Sincroniza a cada 5 segundos durante almoço/jantar e aberturas excepcionais, iniciando 2 minutos antes e permanecendo por 30 minutos após cada turno; consulta a cada 60 segundos entre turnos; suspende consultas automáticas entre 23h e 9h, salvo turnos excepcionais, tolerância após encerramento e pendências de status. Mantém atualização manual, sincronização pontual de alterações de pedidos, redução de consultas da IA do Leitor e aviso de pausa programada na interface. Controle de horários desativado preserva o comportamento original. Sem alteração de schema ou Worker Cloudflare; publicação exclusiva em HOMOLOGAÇÃO, Produção preservada. Publicação direta sem artifacts temporários do GitHub Actions, devido à cota de armazenamento; mantém release pública e checksum SHA-256."
+  "download_url": "https://github.com/ApriMax/restaurante-massas-releases/releases/download/HOMO-R18.46.67/Sistema_Restaurante_Massas_R18.46.67_HOMOLOGACAO_UPDATE.zip",
+  "sha256": "8110c79357fb0fe41951724ccba55a6567507c76765d38bfa8f108428311cc3e",
+  "source_fingerprint": "84f707d8052a243ebaf7b4c56204206e3f3d30016bb195d90132e588154cb388",
+  "notes": "R18.46.67 HOMOLOGAÇÃO: Monitor Cloudflare com contadores de requisições dos Workers e linhas D1 lidas/gravadas, limiares de alerta 70%, 85%, 95% e 100%, consulta de métricas com cache de 10 minutos e interface exclusiva do Administrador na Visão Geral e em Configurações. Chave somente de leitura protegida por DPAPI no Windows; ID e credencial serão cadastrados pelo próprio Administrador após instalar. Link direto ao gerenciamento de pagamento na conta Cloudflare; referência inicial Workers Free e alternativa Workers Paid (sujeito a cobranças excedentes), sem contratação ou alteração automática de planos. Métricas podem apresentar atraso e não equivalem à fatura. Preserva todas as funções e regras da R18.46.66. Sem alteração do Worker 1.38.8, D1, schema ou Produção. Publicação direta em GitHub Releases para evitar cota de artifacts do Actions."
 }
